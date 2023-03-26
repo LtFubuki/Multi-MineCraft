@@ -17,7 +17,7 @@ wget $GEYSER_CONFIG_URL -O geyser-config.yml
 wget $FLOODGATE_CONFIG_URL -O floodgate-config.yml
 
 # Build the Docker image
-docker build -t $DOCKER_IMAGE_NAME https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git#main
+docker build -t $DOCKER_IMAGE_NAME https://github.com/LtFubuki/Multi-MineCraft.git#main
 
 # Stop and remove the old Docker container (if it exists)
 docker stop $DOCKER_CONTAINER_NAME
