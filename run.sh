@@ -7,7 +7,7 @@ DOCKER_IMAGE_NAME=minecraft-server
 DOCKER_CONTAINER_NAME=minecraft-server
 
 # Define the URLs of the configuration files
-SERVER_PROPERTIES_URL=https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPOSITORY/main/server.properties
+SERVER_PROPERTIES_URL=https://raw.githubusercontent.com/LtFubuki/Multi-MineCraft/main/server.properties
 GEYSER_CONFIG_URL=hhttps://raw.githubusercontent.com/LtFubuki/Multi-MineCraft/main/geyser-config.yml
 FLOODGATE_CONFIG_URL=https://raw.githubusercontent.com/LtFubuki/Multi-MineCraft/main/floodgate-config.yml
 
