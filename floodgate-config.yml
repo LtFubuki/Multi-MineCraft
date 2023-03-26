@@ -1,0 +1,2 @@
+# Floodgate configuration
+use-java-account-bridge: true
