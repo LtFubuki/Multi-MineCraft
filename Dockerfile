@@ -2,7 +2,7 @@
 FROM openjdk:16-alpine
 
 # Set environment variables
-ENV MINECRAFT_VERSION="1.17.1" \
+ENV MINECRAFT_VERSION="1.19.71" \
     GEYSER_VERSION="2.0.0-SNAPSHOT" \
     FLOODGATE_VERSION="2.0"
 
