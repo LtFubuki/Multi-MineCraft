@@ -15,8 +15,8 @@ RUN wget https://launcher.mojang.com/v1/objects/0a269b5f2c5b93b1712d0f5dc43b6182
     echo "eula=true" > eula.txt
 
 # Download GeyserMC and Floodgate
-RUN wget https://github.com/GeyserMC/Geyser/releases/latest/download/Geyser.jar -O Geyser.jar && \
-    wget https://github.com/GeyserMC/Floodgate/releases/latest/download/floodgate-bukkit.jar -O Floodgate.jar
+RUN wget https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/spigot -O Geyser.jar && \
+    wget https://ci.opencollab.dev/job/GeyserMC/job/Floodgate/job/master/lastSuccessfulBuild/artifact/spigot/build/libs/floodgate-spigot.jar -O Floodgate.jar
 
 # Copy configuration files
 COPY server.properties ./
