@@ -2,7 +2,7 @@
 FROM openjdk:16-alpine
 
 # Set environment variables
-ENV MINECRAFT_VERSION="1.19.71" \
+ENV MINECRAFT_VERSION="1.19.4" \
     GEYSER_VERSION="2.0.0-SNAPSHOT" \
     FLOODGATE_VERSION="2.0"
 
@@ -11,7 +11,7 @@ RUN mkdir -p /minecraft
 WORKDIR /minecraft
 
 # Download the Minecraft server and accept the EULA
-RUN wget https://launcher.mojang.com/v1/objects/0a269b5f2c5b93b1712d0f5dc43b6182b9ab254e/server.jar -O minecraft_server.jar && \
+RUN wget https://piston-data.mojang.com/v1/objects/8f3112a1049751cc472ec13e397eade5336ca7ae/server.jar -O minecraft_server.jar && \
     echo "eula=true" > eula.txt
 
 # Download GeyserMC and Floodgate
