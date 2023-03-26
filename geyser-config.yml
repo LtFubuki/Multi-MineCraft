@@ -1,7 +1,28 @@
-# Geyser configuration
 bedrock:
   address: 0.0.0.0
   port: 19132
+  clone-remote-port: true
+  motd1: "GeyserMC Server"
+  motd2: "Java and Bedrock players welcome!"
+  server-name: "Geyser Server"
+
 remote:
-  address: 127.0.0.1
+  address: auto
   port: 25565
+  auth-type: "floodgate"
+
+general:
+  threads: 4
+  language: "en_us"
+  cache-chunks: true
+  command-suggestions: true
+  ping-passthrough: true
+  default-locale: null
+  console-over-telnet: false
+  config-version: 4
+
+metrics:
+  enabled: true
+  uuid: <uuid>
+
+floodgate-key-file: "public-key.pem"
