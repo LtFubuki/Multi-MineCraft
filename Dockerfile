@@ -15,7 +15,7 @@ RUN wget https://piston-data.mojang.com/v1/objects/8f3112a1049751cc472ec13e397ea
     echo "eula=true" > eula.txt
 
 # Download GeyserMC and Floodgate
-RUN wget https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/spigot -O Geyser.jar && \
+RUN wget https://ci.opencollab.dev/job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/standalone/build/libs/Geyser-Standalone.jar -O Geyser.jar && \
     wget https://ci.opencollab.dev/job/GeyserMC/job/Floodgate/job/master/lastSuccessfulBuild/artifact/spigot/build/libs/floodgate-spigot.jar -O Floodgate.jar
 
 # Copy configuration files and start script
