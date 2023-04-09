@@ -25,6 +25,7 @@ docker run -d \
   --name $DOCKER_CONTAINER_NAME \
   -p 25565:25565 \
   -p 19132:19132/udp \
+  -v /minecraft:minecraft
   -v "$(pwd)/server.properties:/minecraft/server.properties" \
   -v "$(pwd)/geyser-config.yml:/minecraft/geyser-config.yml" \
   -v "$(pwd)/floodgate-config.yml:/minecraft/floodgate-config.yml" \
