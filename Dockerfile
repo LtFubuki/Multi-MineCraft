@@ -24,7 +24,7 @@ RUN wget https://cdn.modrinth.com/data/cnIatHrN/versions/8QjF9W94/universal_shop
     wget https://cdn.modrinth.com/data/jTUiUpsh/versions/zhpbC0v6/ShowMeWhatYouGot-1.19.4-1.1.0.jar -O SMWYG.jar && \
     wget https://cdn.modrinth.com/data/8RtckdKf/versions/dyTsFisd/rpgstats-5.0.9%2B1.19.2.jar -O rpg_stats.jar && \
     wget https://cdn.modrinth.com/data/yn9u3ypm/versions/vHvEE5VR/graves-2.2.1%2B1.19.4.jar -O graves.jar && \
-    wget https://cdn.modrinth.com/data/PTGd6dWp/versions/ZlwA2G0d/mostructures-1.4.3%2B1.19.4.jar mo_structures.jar && \
+    wget https://cdn.modrinth.com/data/PTGd6dWp/versions/ZlwA2G0d/mostructures-1.4.3%2B1.19.4.jar -O mo_structures.jar && \
     wget https://cdn.modrinth.com/data/fgmhI8kH/versions/3eXWBWdB/ctov-3.1.8.jar -O CTOV.jar && \
     wget https://cdn.modrinth.com/data/CVBAErky/versions/e7rJNBPs/%5BUniversal%5DImmersive%20Structures-2.0.7.jar -O universal_structures.jar
 
