@@ -29,8 +29,8 @@ RUN wget https://cdn.modrinth.com/data/cnIatHrN/versions/8QjF9W94/universal_shop
     wget https://cdn.modrinth.com/data/CVBAErky/versions/e7rJNBPs/%5BUniversal%5DImmersive%20Structures-2.0.7.jar -O universal_structures.jar
 
 # Download GeyserMC and Floodgate
-RUN wget https://ci.opencollab.dev/job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/standalone/build/libs/Geyser-Standalone.jar -O Geyser.jar && \
-    wget https://ci.opencollab.dev/job/GeyserMC/job/Floodgate/job/master/lastSuccessfulBuild/artifact/spigot/build/libs/floodgate-spigot.jar -O Floodgate.jar
+RUN wget https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/fabric -O Geyser.jar && \
+    wget https://download.geysermc.org/v2/projects/floodgate/versions/latest/builds/latest/downloads/fabric -O Floodgate.jar
 
 # Copy configuration files and start script
 COPY server.properties ./
