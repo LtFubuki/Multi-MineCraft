@@ -15,18 +15,19 @@ RUN wget https://piston-data.mojang.com/v1/objects/8f3112a1049751cc472ec13e397ea
     echo "eula=true" > eula.txt
 
 #download Mods
-RUN wget https://cdn.modrinth.com/data/cnIatHrN/versions/8QjF9W94/universal_shops-1.2.0%2B1.19.4.jar -O universal_shops.jar && \
-    wget https://cdn.modrinth.com/data/nmJ9dZtI/versions/hlAXAEA6/expanded-axe-enchanting-1.0.5.jar -O expanded_axe.jar && \
-    wget https://cdn.modrinth.com/data/mbBFD52c/versions/Gukcfrz6/expanded-armor-enchanting-1.0.4.jar -O expanded_armor.jar && \
-    wget https://cdn.modrinth.com/data/aa4EyFDP/versions/vCB24GVg/expanded-weapon-enchanting-1.0.4.jar -O expanded_weapons.jar && \
-    wget https://cdn.modrinth.com/data/nHOlhRg9/versions/2ruNLl0H/expanded-trident-enchanting-1.0.5.jar -O expanded_tridents.jar && \
-    wget https://cdn.modrinth.com/data/fdtm99de/versions/g1B0fOgq/betternethermap-1.2-1.19.3.jar -O better_nether_map.jar && \
-    wget https://cdn.modrinth.com/data/jTUiUpsh/versions/zhpbC0v6/ShowMeWhatYouGot-1.19.4-1.1.0.jar -O SMWYG.jar && \
-    wget https://cdn.modrinth.com/data/8RtckdKf/versions/dyTsFisd/rpgstats-5.0.9%2B1.19.2.jar -O rpg_stats.jar && \
-    wget https://cdn.modrinth.com/data/yn9u3ypm/versions/vHvEE5VR/graves-2.2.1%2B1.19.4.jar -O graves.jar && \
-    wget https://cdn.modrinth.com/data/PTGd6dWp/versions/ZlwA2G0d/mostructures-1.4.3%2B1.19.4.jar -O mo_structures.jar && \
-    wget https://cdn.modrinth.com/data/fgmhI8kH/versions/3eXWBWdB/ctov-3.1.8.jar -O CTOV.jar && \
-    wget https://cdn.modrinth.com/data/CVBAErky/versions/e7rJNBPs/%5BUniversal%5DImmersive%20Structures-2.0.7.jar -O universal_structures.jar
+RUN mkdir mods && \
+    wget https://cdn.modrinth.com/data/cnIatHrN/versions/8QjF9W94/universal_shops-1.2.0%2B1.19.4.jar -O mods/universal_shops.jar && \
+    wget https://cdn.modrinth.com/data/nmJ9dZtI/versions/hlAXAEA6/expanded-axe-enchanting-1.0.5.jar -O mods/expanded_axe.jar && \
+    wget https://cdn.modrinth.com/data/mbBFD52c/versions/Gukcfrz6/expanded-armor-enchanting-1.0.4.jar -O mods/expanded_armor.jar && \
+    wget https://cdn.modrinth.com/data/aa4EyFDP/versions/vCB24GVg/expanded-weapon-enchanting-1.0.4.jar -O mods/expanded_weapons.jar && \
+    wget https://cdn.modrinth.com/data/nHOlhRg9/versions/2ruNLl0H/expanded-trident-enchanting-1.0.5.jar -O mods/expanded_tridents.jar && \
+    wget https://cdn.modrinth.com/data/fdtm99de/versions/g1B0fOgq/betternethermap-1.2-1.19.3.jar -O mods/better_nether_map.jar && \
+    wget https://cdn.modrinth.com/data/jTUiUpsh/versions/zhpbC0v6/ShowMeWhatYouGot-1.19.4-1.1.0.jar -O mods/SMWYG.jar && \
+    wget https://cdn.modrinth.com/data/8RtckdKf/versions/dyTsFisd/rpgstats-5.0.9%2B1.19.2.jar -O mods/rpg_stats.jar && \
+    wget https://cdn.modrinth.com/data/yn9u3ypm/versions/vHvEE5VR/graves-2.2.1%2B1.19.4.jar -O mods/graves.jar && \
+    wget https://cdn.modrinth.com/data/PTGd6dWp/versions/ZlwA2G0d/mostructures-1.4.3%2B1.19.4.jar -O mods/mo_structures.jar && \
+    wget https://cdn.modrinth.com/data/fgmhI8kH/versions/3eXWBWdB/ctov-3.1.8.jar -O mods/CTOV.jar && \
+    wget https://cdn.modrinth.com/data/CVBAErky/versions/e7rJNBPs/%5BUniversal%5DImmersive%20Structures-2.0.7.jar -O mods/universal_structures.jar
 
 # Download GeyserMC and Floodgate
 RUN wget https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/fabric -O Geyser.jar && \
