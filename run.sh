@@ -10,8 +10,8 @@ DOCKER_CONTAINER_NAME=minecraft-server
 docker build -t $DOCKER_IMAGE_NAME https://github.com/LtFubuki/Multi-MineCraft.git#main
 
 # Stop and remove the old Docker container (if it exists)
-docker stop $DOCKER_CONTAINER_NAME
-docker rm $DOCKER_CONTAINER_NAME
+#docker stop $DOCKER_CONTAINER_NAME
+#docker rm $DOCKER_CONTAINER_NAME
 
 # Download the configuration files and start script
 wget https://raw.githubusercontent.com/LtFubuki/Multi-MineCraft/main/server.properties
