@@ -20,7 +20,7 @@ RUN mkdir mods && \
     wget https://mediafilez.forgecdn.net/files/4466/959/fabric-language-kotlin-1.9.3%2Bkotlin.1.8.20.jar -O mods/fabric_kotlin.jar && \
     wget https://mediafilez.forgecdn.net/files/4440/461/cloth-config-10.0.96-forge.jar -O cloth_config.jar && \
     wget https://cdn.modrinth.com/data/yn9u3ypm/versions/vHvEE5VR/graves-2.2.1%2B1.19.4.jar -O mods/graves.jar && \
-    wget https://mediafilez.forgecdn.net/files/4470/60/Xaeros_Minimap_23.3.3_Fabric_1.19.4.jar -O xaeros_minimap.jar && \
+    wget https://mediafilez.forgecdn.net/files/4470/60/Xaeros_Minimap_23.3.3_Fabric_1.19.4.jar -O mods/xaeros_minimap.jar && \
     wget https://cdn.modrinth.com/data/PTGd6dWp/versions/ZlwA2G0d/mostructures-1.4.3%2B1.19.4.jar -O mods/mo_structures.jar
 
 # Download GeyserMC and Floodgate
