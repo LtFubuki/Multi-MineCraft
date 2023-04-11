@@ -11,7 +11,7 @@ RUN mkdir -p /minecraft
 WORKDIR /minecraft
 
 # Download the Minecraft server and accept the EULA
-RUN wget https://piston-data.mojang.com/v1/objects/8f3112a1049751cc472ec13e397eade5336ca7ae/server.jar -O minecraft_server.jar && \
+RUN wget https://meta.fabricmc.net/v2/versions/loader/1.19.4/0.14.19/0.11.2/server/jar -O minecraft_server.jar && \
     echo "eula=true" > eula.txt
 
 #download Mods
