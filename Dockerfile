@@ -19,7 +19,6 @@ RUN mkdir mods && \
     wget https://mediafilez.forgecdn.net/files/4474/468/fabric-api-0.77.0%2B1.19.4.jar -O mods/fabric_api.jar && \
     wget https://mediafilez.forgecdn.net/files/4466/959/fabric-language-kotlin-1.9.3%2Bkotlin.1.8.20.jar -O mods/fabric_kotlin.jar && \
     wget https://mediafilez.forgecdn.net/files/4440/461/cloth-config-10.0.96-forge.jar -O cloth_config.jar && \
-    wget https://cdn.modrinth.com/data/cnIatHrN/versions/8QjF9W94/universal_shops-1.2.0%2B1.19.4.jar -O mods/universal_shops.jar && \
     wget https://cdn.modrinth.com/data/fdtm99de/versions/g1B0fOgq/betternethermap-1.2-1.19.3.jar -O mods/better_nether_map.jar && \
     wget https://cdn.modrinth.com/data/jTUiUpsh/versions/zhpbC0v6/ShowMeWhatYouGot-1.19.4-1.1.0.jar -O mods/SMWYG.jar && \
     wget https://cdn.modrinth.com/data/8RtckdKf/versions/dyTsFisd/rpgstats-5.0.9%2B1.19.2.jar -O mods/rpg_stats.jar && \
