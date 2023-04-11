@@ -37,7 +37,7 @@ COPY start.sh ./
 RUN chmod +x start.sh
 
 # Expose server ports
-EXPOSE 25565 19132/udp
+EXPOSE 25565 8123 19132/udp
 
 # Start the server using the start.sh script
 CMD ["./start.sh"]
