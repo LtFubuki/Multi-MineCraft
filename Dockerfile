@@ -18,6 +18,7 @@ RUN wget https://meta.fabricmc.net/v2/versions/loader/1.19.4/0.14.19/0.11.2/serv
 RUN mkdir mods && \
     wget https://mediafilez.forgecdn.net/files/4474/468/fabric-api-0.77.0%2B1.19.4.jar -O mods/fabric_api.jar && \
     wget https://mediafilez.forgecdn.net/files/4466/959/fabric-language-kotlin-1.9.3%2Bkotlin.1.8.20.jar -O mods/fabric_kotlin.jar && \
+    wget https://mediafilez.forgecdn.net/files/4440/461/cloth-config-10.0.96-forge.jar -O cloth_config.jar && \
     wget https://cdn.modrinth.com/data/cnIatHrN/versions/8QjF9W94/universal_shops-1.2.0%2B1.19.4.jar -O mods/universal_shops.jar && \
     wget https://cdn.modrinth.com/data/nmJ9dZtI/versions/hlAXAEA6/expanded-axe-enchanting-1.0.5.jar -O mods/expanded_axe.jar && \
     wget https://cdn.modrinth.com/data/mbBFD52c/versions/Gukcfrz6/expanded-armor-enchanting-1.0.4.jar -O mods/expanded_armor.jar && \
