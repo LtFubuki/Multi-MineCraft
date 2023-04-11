@@ -24,6 +24,7 @@ chmod +x start.sh
 docker run -d \
   --name $DOCKER_CONTAINER_NAME \
   -p 25565:25565 \
+  -p 8123:8123 \
   -p 19132:19132/udp \
   -v "$(pwd)/server.properties:/minecraft/server.properties" \
   -v "$(pwd)/geyser-config.yml:/minecraft/geyser-config.yml" \
