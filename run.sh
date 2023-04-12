@@ -21,7 +21,6 @@ stop_and_remove_old_container() {
       echo "Old Docker container stopped and removed."
     else
       echo "Error stopping and removing old Docker container. Exiting."
-      exit 1
     fi
   else
     echo "No existing Docker container found."
