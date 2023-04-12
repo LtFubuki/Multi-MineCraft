@@ -25,7 +25,10 @@ RUN mkdir mods && \
     wget https://cdn-raw.modrinth.com/data/gvQqBUqZ/versions/14hWYkog/lithium-fabric-mc1.19.4-0.11.1.jar -O mods/lithium.jar && \
     wget https://cdn-raw.modrinth.com/data/hEOCdOgW/versions/mc1.19.x-0.8.1/phosphor-fabric-mc1.19.x-0.8.1.jar -O mods/phosphor.jar && \
     wget https://cdn-raw.modrinth.com/data/AANobbMI/versions/b4hTi3mo/sodium-fabric-mc1.19.4-0.4.10%2Bbuild.24.jar -O mods/sodium.jar && \
-    wget https://cdn-raw.modrinth.com/data/Fb4jn8m6/versions/BQ6i1U5X/FallingTree-1.19.4-3.12.1.jar -O mods/falling_tree.jar
+    wget https://cdn-raw.modrinth.com/data/Fb4jn8m6/versions/BQ6i1U5X/FallingTree-1.19.4-3.12.1.jar -O mods/falling_tree.jar && \
+    wget https://cdn-raw.modrinth.com/data/fgmhI8kH/versions/3eXWBWdB/ctov-3.1.8.jar -O mods/CTOV.jar && \
+    wget https://cdn-raw.modrinth.com/data/CVBAErky/versions/e7rJNBPs/%5BUniversal%5DImmersive%20Structures-2.0.7.jar -O mods/universal_structures.jar && \
+    https://cdn-raw.modrinth.com/data/TWsbC6jW/versions/wtEjVsXc/AdditionalStructures-1.19.x-%28v.4.1.1%29.jar -O mods/add_structures.jar
 
 # Download GeyserMC and Floodgate
 RUN wget https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/fabric -O mods/Geyser.jar && \
