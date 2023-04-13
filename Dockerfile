@@ -18,7 +18,7 @@ RUN wget https://meta.fabricmc.net/v2/versions/loader/1.19.4/0.14.19/0.11.2/serv
 RUN mkdir mods && \
     wget https://mediafilez.forgecdn.net/files/4474/468/fabric-api-0.77.0%2B1.19.4.jar -O mods/fabric_api.jar && \
     wget https://mediafilez.forgecdn.net/files/4466/959/fabric-language-kotlin-1.9.3%2Bkotlin.1.8.20.jar -O mods/fabric_kotlin.jar && \
-    wget https://mediafilez.forgecdn.net/files/4440/461/cloth-config-10.0.96-forge.jar -O cloth_config.jar && \
+    wget https://cdn-raw.modrinth.com/data/9s6osm5g/versions/6XGTNEII/cloth-config-10.0.96-fabric.jar -O mods/cloth_config.jar && \
     wget https://cdn.modrinth.com/data/yn9u3ypm/versions/vHvEE5VR/graves-2.2.1%2B1.19.4.jar -O mods/graves.jar && \
     wget https://cdn-raw.modrinth.com/data/fRQREgAc/versions/jHY0XK3D/Dynmap-3.5-beta-3-fabric-1.19.4.jar -O mods/dyn_map.jar && \
     wget https://cdn.modrinth.com/data/PTGd6dWp/versions/ZlwA2G0d/mostructures-1.4.3%2B1.19.4.jar -O mods/mo_structures.jar && \
