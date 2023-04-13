@@ -34,7 +34,15 @@ RUN mkdir mods && \
     wget https://cdn-raw.modrinth.com/data/t5FRdP87/versions/EVkItnSb/YungsBetterWitchHuts-1.19.4-Fabric-2.3.0.jar -O mods/better_huts.jar && \
     wget https://cdn-raw.modrinth.com/data/Ht4BfYp6/versions/pWD9qGts/YungsBridges-1.19.4-Fabric-3.3.0.jar -O mods/better_bridges.jar && \
     wget https://cdn-raw.modrinth.com/data/ZYgyPyfq/versions/MUzrN78m/YungsExtras-1.19.4-Fabric-3.3.0.jar -O mods/yung_extras.jar && \
-    wget https://cdn-raw.modrinth.com/data/Z2mXHnxP/versions/tS9cnHTd/YungsBetterNetherFortresses-1.19.4-Fabric-1.2.0.jar -O mods/better_nether.jar
+    wget https://cdn-raw.modrinth.com/data/Z2mXHnxP/versions/tS9cnHTd/YungsBetterNetherFortresses-1.19.4-Fabric-1.2.0.jar -O mods/better_nether.jar && \
+    wget https://cdn-raw.modrinth.com/data/8RtckdKf/versions/6N8NcYZO/rpgstats-4.5.0%2B1.19.2.jar -O mods/rpg_stats.jar && \
+    wget https://cdn-raw.modrinth.com/data/DPkbo3dg/versions/GRt0LbT5/dragondropselytra-1.19.4-3.0.jar -O mods/drag_drop.jar && \
+    wget https://cdn-raw.modrinth.com/data/aucz7XCt/versions/1.4.1/profundis-1.4.1.jar -O mods/profundis.jar && \
+    wget https://cdn-raw.modrinth.com/data/ZcqNoW8j/versions/VD4dKLLv/skeletonhorsespawn-1.19.4-3.6.jar -O mods/skel_horses.jar && \
+    wget https://cdn-raw.modrinth.com/data/owDBGfRd/versions/BrLwW0QT/zombiehorsespawn-1.19.4-4.6.jar -O mods/zombie_horses.jar && \
+    wget https://cdn-raw.modrinth.com/data/kOuPUitF/versions/nkFdI1sJ/healingcampfire-1.19.4-5.1.jar -O mods/healing_campfire.jar && \
+    wget https://cdn-raw.modrinth.com/data/cwKtPx6L/versions/1.1.2-1.19/SimplyHouses-1.1.2-1.19-fabric.jar -O mods/simply_houses.jar && \
+    wget https://cdn-raw.modrinth.com/data/azBgcZIk/versions/flBvxHGE/waystone_towers-1.19.2-FABRIC-1.0.8.jar -O mods/waystone_towers.jar
 
 # Download GeyserMC and Floodgate
 RUN wget https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/fabric -O mods/Geyser.jar && \
