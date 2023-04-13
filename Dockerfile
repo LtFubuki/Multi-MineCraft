@@ -19,7 +19,6 @@ RUN mkdir mods && \
     wget https://mediafilez.forgecdn.net/files/4474/468/fabric-api-0.77.0%2B1.19.4.jar -O mods/fabric_api.jar && \
     wget https://mediafilez.forgecdn.net/files/4466/959/fabric-language-kotlin-1.9.3%2Bkotlin.1.8.20.jar -O mods/fabric_kotlin.jar && \
     wget https://cdn-raw.modrinth.com/data/9s6osm5g/versions/6XGTNEII/cloth-config-10.0.96-fabric.jar -O mods/cloth_config.jar && \
-    wget https://cdn-raw.modrinth.com/data/e0M1UDsY/versions/PvuijvUl/collective-1.19.4-6.54.jar -O mods/collective.jar && \
     wget https://cdn.modrinth.com/data/yn9u3ypm/versions/vHvEE5VR/graves-2.2.1%2B1.19.4.jar -O mods/graves.jar && \
     wget https://cdn-raw.modrinth.com/data/fRQREgAc/versions/jHY0XK3D/Dynmap-3.5-beta-3-fabric-1.19.4.jar -O mods/dyn_map.jar && \
     wget https://cdn.modrinth.com/data/PTGd6dWp/versions/ZlwA2G0d/mostructures-1.4.3%2B1.19.4.jar -O mods/mo_structures.jar && \
@@ -37,9 +36,6 @@ RUN mkdir mods && \
     wget https://cdn-raw.modrinth.com/data/ZYgyPyfq/versions/MUzrN78m/YungsExtras-1.19.4-Fabric-3.3.0.jar -O mods/yung_extras.jar && \
     wget https://cdn-raw.modrinth.com/data/Z2mXHnxP/versions/tS9cnHTd/YungsBetterNetherFortresses-1.19.4-Fabric-1.2.0.jar -O mods/better_nether.jar && \
     wget https://cdn-raw.modrinth.com/data/8RtckdKf/versions/6N8NcYZO/rpgstats-4.5.0%2B1.19.2.jar -O mods/rpg_stats.jar && \
-    wget https://cdn-raw.modrinth.com/data/DPkbo3dg/versions/GRt0LbT5/dragondropselytra-1.19.4-3.0.jar -O mods/drag_drop.jar && \
-    wget https://cdn-raw.modrinth.com/data/ZcqNoW8j/versions/VD4dKLLv/skeletonhorsespawn-1.19.4-3.6.jar -O mods/skel_horses.jar && \
-    wget https://cdn-raw.modrinth.com/data/owDBGfRd/versions/BrLwW0QT/zombiehorsespawn-1.19.4-4.6.jar -O mods/zombie_horses.jar && \
     wget https://cdn-raw.modrinth.com/data/kOuPUitF/versions/nkFdI1sJ/healingcampfire-1.19.4-5.1.jar -O mods/healing_campfire.jar && \
     wget https://cdn-raw.modrinth.com/data/cwKtPx6L/versions/1.1.2-1.19/SimplyHouses-1.1.2-1.19-fabric.jar -O mods/simply_houses.jar
 
