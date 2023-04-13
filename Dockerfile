@@ -42,8 +42,7 @@ RUN mkdir mods && \
     wget https://cdn-raw.modrinth.com/data/ZcqNoW8j/versions/VD4dKLLv/skeletonhorsespawn-1.19.4-3.6.jar -O mods/skel_horses.jar && \
     wget https://cdn-raw.modrinth.com/data/owDBGfRd/versions/BrLwW0QT/zombiehorsespawn-1.19.4-4.6.jar -O mods/zombie_horses.jar && \
     wget https://cdn-raw.modrinth.com/data/kOuPUitF/versions/nkFdI1sJ/healingcampfire-1.19.4-5.1.jar -O mods/healing_campfire.jar && \
-    wget https://cdn-raw.modrinth.com/data/cwKtPx6L/versions/1.1.2-1.19/SimplyHouses-1.1.2-1.19-fabric.jar -O mods/simply_houses.jar && \
-    wget https://cdn-raw.modrinth.com/data/azBgcZIk/versions/flBvxHGE/waystone_towers-1.19.2-FABRIC-1.0.8.jar -O mods/waystone_towers.jar
+    wget https://cdn-raw.modrinth.com/data/cwKtPx6L/versions/1.1.2-1.19/SimplyHouses-1.1.2-1.19-fabric.jar -O mods/simply_houses.jar
 
 # Download GeyserMC and Floodgate
 RUN wget https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/fabric -O mods/Geyser.jar && \
