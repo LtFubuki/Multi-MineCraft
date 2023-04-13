@@ -41,7 +41,6 @@ RUN mkdir mods && \
     wget https://cdn-raw.modrinth.com/data/8RtckdKf/versions/6N8NcYZO/rpgstats-4.5.0%2B1.19.2.jar -O mods/rpg_stats.jar && \
     wget https://cdn-raw.modrinth.com/data/kOuPUitF/versions/nkFdI1sJ/healingcampfire-1.19.4-5.1.jar -O mods/healing_campfire.jar && \
     wget https://cdn-raw.modrinth.com/data/cwKtPx6L/versions/1.1.2-1.19/SimplyHouses-1.1.2-1.19-fabric.jar -O mods/simply_houses.jar && \
-    wget https://cdn-raw.modrinth.com/data/LYliJ0jT/versions/3.1.5%2B1.19%2Bfabric/Unforgiving-Void-Fabric-3.1.5%2B1.19.jar -O mods/unf_void.jar && \
     wget https://cdn-raw.modrinth.com/data/z7UX4SHt/versions/CjehlXbY/netherportalspread-1.19.4-7.5.jar -O mods/nether_portal_spread.jar && \
     wget https://cdn-raw.modrinth.com/data/tOoh2eQm/versions/R9sL0Q9u/petnames-1.19.4-3.0.jar -O mods/pet_names.jar
 
