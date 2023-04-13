@@ -38,7 +38,6 @@ RUN mkdir mods && \
     wget https://cdn-raw.modrinth.com/data/Z2mXHnxP/versions/tS9cnHTd/YungsBetterNetherFortresses-1.19.4-Fabric-1.2.0.jar -O mods/better_nether.jar && \
     wget https://cdn-raw.modrinth.com/data/8RtckdKf/versions/6N8NcYZO/rpgstats-4.5.0%2B1.19.2.jar -O mods/rpg_stats.jar && \
     wget https://cdn-raw.modrinth.com/data/DPkbo3dg/versions/GRt0LbT5/dragondropselytra-1.19.4-3.0.jar -O mods/drag_drop.jar && \
-    wget https://cdn-raw.modrinth.com/data/aucz7XCt/versions/1.4.1/profundis-1.4.1.jar -O mods/profundis.jar && \
     wget https://cdn-raw.modrinth.com/data/ZcqNoW8j/versions/VD4dKLLv/skeletonhorsespawn-1.19.4-3.6.jar -O mods/skel_horses.jar && \
     wget https://cdn-raw.modrinth.com/data/owDBGfRd/versions/BrLwW0QT/zombiehorsespawn-1.19.4-4.6.jar -O mods/zombie_horses.jar && \
     wget https://cdn-raw.modrinth.com/data/kOuPUitF/versions/nkFdI1sJ/healingcampfire-1.19.4-5.1.jar -O mods/healing_campfire.jar && \
