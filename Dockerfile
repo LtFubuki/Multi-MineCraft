@@ -43,7 +43,11 @@ RUN mkdir mods && \
     wget https://cdn-raw.modrinth.com/data/cwKtPx6L/versions/1.1.2-1.19/SimplyHouses-1.1.2-1.19-fabric.jar -O mods/simply_houses.jar && \
     wget https://cdn-raw.modrinth.com/data/o1C1Dkj5/versions/ndfXFrkZ/YungsBetterDungeons-1.19.4-Fabric-3.4.0.jar -O mods/better_dung.jar && \
     wget https://cdn-raw.modrinth.com/data/HjmxVlSr/versions/TzrcWYpl/YungsBetterMineshafts-1.19.4-Fabric-3.4.0.jar -O mods/better_mineshaft.jar && \
-    wget https://cdn-raw.modrinth.com/data/kidLKymU/versions/AWml7PPK/YungsBetterStrongholds-1.19.4-Fabric-3.4.0.jar -O mods/better_stronghold.jar
+    wget https://cdn-raw.modrinth.com/data/kidLKymU/versions/AWml7PPK/YungsBetterStrongholds-1.19.4-Fabric-3.4.0.jar -O mods/better_stronghold.jar && \
+    wget https://cdn-raw.modrinth.com/data/doqSKB0e/versions/krxsLfUl/styled-chat-2.1.5%2B1.19.4.jar -O mods/styled_chat.jar && \
+    wget https://cdn-raw.modrinth.com/data/DQIfKUHf/versions/cEi0Qx95/styledplayerlist-2.3.0%2B1.19.3.jar -O mods/styled_list.jar && \
+    wget https://cdn-raw.modrinth.com/data/NNqujQWr/versions/1.0.11/healthcare-1.0.11.jar -O mods/helthcare.jar && \
+    wget https://cdn-raw.modrinth.com/data/5ibSyLAz/versions/c28ouOKs/InventorySorter-1.8.10-1.19.4.jar -O mods/inv_sorter.jar
 
 # Download GeyserMC and Floodgate
 RUN wget https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/fabric -O mods/Geyser.jar && \
