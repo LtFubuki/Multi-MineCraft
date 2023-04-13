@@ -42,9 +42,7 @@ RUN mkdir mods && \
     wget https://cdn-raw.modrinth.com/data/kOuPUitF/versions/nkFdI1sJ/healingcampfire-1.19.4-5.1.jar -O mods/healing_campfire.jar && \
     wget https://cdn-raw.modrinth.com/data/cwKtPx6L/versions/1.1.2-1.19/SimplyHouses-1.1.2-1.19-fabric.jar -O mods/simply_houses.jar && \
     wget https://cdn-raw.modrinth.com/data/LYliJ0jT/versions/3.1.5%2B1.19%2Bfabric/Unforgiving-Void-Fabric-3.1.5%2B1.19.jar -O mods/unf_void.jar && \
-    wget https://cdn-raw.modrinth.com/data/LowX8PQT/versions/1.2.0/ngv-1.2.0.jar -O mods/ngv.jar && \
     wget https://cdn-raw.modrinth.com/data/z7UX4SHt/versions/CjehlXbY/netherportalspread-1.19.4-7.5.jar -O mods/nether_portal_spread.jar && \
-    wget https://cdn-raw.modrinth.com/data/F4JYug5V/versions/1.21.10/servback-1.21.10.jar -O mods/serv_bak.jar && \
     wget https://cdn-raw.modrinth.com/data/tOoh2eQm/versions/R9sL0Q9u/petnames-1.19.4-3.0.jar -O mods/pet_names.jar
 
 # Download GeyserMC and Floodgate
