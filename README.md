@@ -12,7 +12,7 @@ Basic knowledge of Docker and the command line
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/YourGitHubUsername/Multi-MineCraft.git
+git clone https://github.com/LtFubuki/Multi-MineCraft.git
 ```
 
 Change to the repository directory:
