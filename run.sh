@@ -46,7 +46,7 @@ run_docker_container() {
     -p 25565:25565 \
     -p 8123:8123 \
     -p 19132:19132/udp \
-    -v "/minecraft:/minecraft" \
+    -v "~/Multi-Minecraft/minecraft:/minecraft" \
     -v "$(pwd)/server.properties:/minecraft/server.properties" \
     -v "$(pwd)/geyser-config.yml:/minecraft/geyser-config.yml" \
     -v "$(pwd)/floodgate-config.yml:/minecraft/floodgate-config.yml" \
