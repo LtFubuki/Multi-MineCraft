@@ -41,6 +41,7 @@ RUN mkdir mods && \
     wget https://cdn-raw.modrinth.com/data/doqSKB0e/versions/krxsLfUl/styled-chat-2.1.5%2B1.19.4.jar -O mods/styled_chat.jar && \
     wget https://cdn-raw.modrinth.com/data/DQIfKUHf/versions/cEi0Qx95/styledplayerlist-2.3.0%2B1.19.3.jar -O mods/styled_list.jar && \
     wget https://cdn-raw.modrinth.com/data/ZYgyPyfq/versions/MUzrN78m/YungsExtras-1.19.4-Fabric-3.3.0.jar -O mods/yung_extras.jar && \
+    wget https://cdn-raw.modrinth.com/data/8RtckdKf/versions/6N8NcYZO/rpgstats-4.5.0%2B1.19.2.jar -O mods/rpg_stats.jar && \
     wget https://cdn-raw.modrinth.com/data/5ibSyLAz/versions/c28ouOKs/InventorySorter-1.8.10-1.19.4.jar -O mods/inv_sorter.jar
 
 # Download GeyserMC and Floodgate
