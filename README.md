@@ -40,8 +40,7 @@ curl -s https://raw.githubusercontent.com/LtFubuki/Multi-MineCraft/main/run.sh |
 This script will build the Docker image, remove any existing containers with the same name, download configuration files and the start script, and finally run a new Docker container with the Minecraft server.
 If you encounter any errors, make sure you have Docker installed and running, and that you have the necessary permissions to execute the script.
 
-
-## Ports
+## Ports 🚪
 
 By default, the following ports are exposed:
 
@@ -50,8 +49,7 @@ By default, the following ports are exposed:
 19132: Minecraft Bedrock Edition (UDP)
 Make sure these ports are properly forwarded if you are running the server behind a router or firewall.
 
-
-## Customizing the Server
+## Customizing the Server 🔧
 
 You can customize the server by editing the configuration files located in the repository directory:
 
@@ -62,15 +60,13 @@ You can also customize the mods and their versions by editing the Dockerfile. Si
 
 After making changes to the configuration files or the Dockerfile, rebuild the image and restart the container by running the ./setup.sh script again.
 
-
-## Updating the Server
+## Updating the Server ⏫
 
 To update the server, edit the Dockerfile and change the MINECRAFT_VERSION, GEYSER_VERSION, and FLOODGATE_VERSION environment variables to the desired version numbers. Then, run the ./setup.sh script to rebuild the image and restart the container.
 
-Warning: Updating the server may cause compatibility issues with existing worlds, plugins, or mods. Always create a backup of your server data before updating.
+⚠️ Warning: Updating the server may cause compatibility issues with existing worlds, plugins, or mods. Always create a backup of your server data before updating.
 
-
-## Acknowledgments
+## Acknowledgments 🙌
 
 GeyserMC and Floodgate for enabling cross-platform play
 All mod creators for their hard work and dedication to the Minecraft community
