@@ -1,32 +1,34 @@
-# Multi-MineCraft Docker
+# Multi-MineCraft Docker 🌐🎮
 
 This repository contains a Dockerfile and a setup script for deploying a Minecraft server with several mods, GeyserMC, and Floodgate. The server allows both Java and Bedrock Edition players to join.
 
-## Prerequisites
+![Minecraft](https://www.minecraft.net/content/dam/archive/og-image/minecraft-hero-og.jpg)
 
-Docker installed on your system
-Basic knowledge of Docker and the command line
+## Prerequisites 📚
 
-## Getting Started
+- Docker installed on your system
+- Basic knowledge of Docker and the command line
 
-Clone this repository to your local machine:
+## Getting Started ⚡
 
-```bash
-git clone https://github.com/LtFubuki/Multi-MineCraft.git
-```
+1. Clone this repository to your local machine:
 
-Change to the repository directory:
+   ```bash
+   git clone https://github.com/LtFubuki/Multi-MineCraft.git
+   ```
 
-```bash
-cd Multi-MineCraft
-```
+2. Change to the repository directory:
 
-Run the setup script:
+  ```bash
+  cd Multi-MineCraft
+  ```
 
-```bash
-chmod +x run.sh \
-./run.sh
-```
+3. Run the setup script:
+
+  ```bash
+  chmod +x run.sh \
+  ./run.sh
+  ```
 
 One liner setup:
 
