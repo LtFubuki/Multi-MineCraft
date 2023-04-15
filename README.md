@@ -19,22 +19,22 @@ This repository contains a Dockerfile and a setup script for deploying a Minecra
 
 2. Change to the repository directory:
 
-  ```bash
-  cd Multi-MineCraft
-  ```
+   ```bash
+   cd Multi-MineCraft
+   ```
 
 3. Run the setup script:
 
-  ```bash
-  chmod +x run.sh \
-  ./run.sh
-  ```
+   ```bash
+   chmod +x run.sh \
+   ./run.sh
+   ```
 
 One liner setup:
 
-```bash
-curl -s https://raw.githubusercontent.com/LtFubuki/Multi-MineCraft/main/run.sh | bash
-```
+   ```bash
+   curl -s https://raw.githubusercontent.com/LtFubuki/Multi-MineCraft/main/run.sh | bash
+   ```
 
 
 This script will build the Docker image, remove any existing containers with the same name, download configuration files and the start script, and finally run a new Docker container with the Minecraft server.
