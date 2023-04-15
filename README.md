@@ -45,8 +45,11 @@ If you encounter any errors, make sure you have Docker installed and running, an
 By default, the following ports are exposed:
 
 25565: Minecraft Java Edition
+
 8123: Dynmap web server
+
 19132: Minecraft Bedrock Edition (UDP)
+
 Make sure these ports are properly forwarded if you are running the server behind a router or firewall.
 
 ## Customizing the Server 🔧
