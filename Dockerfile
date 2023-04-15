@@ -34,7 +34,6 @@ RUN mkdir mods && \
     wget https://cdn-raw.modrinth.com/data/t5FRdP87/versions/EVkItnSb/YungsBetterWitchHuts-1.19.4-Fabric-2.3.0.jar -O mods/better_huts.jar && \
     wget https://cdn-raw.modrinth.com/data/Ht4BfYp6/versions/pWD9qGts/YungsBridges-1.19.4-Fabric-3.3.0.jar -O mods/better_bridges.jar && \
     wget https://cdn-raw.modrinth.com/data/Z2mXHnxP/versions/tS9cnHTd/YungsBetterNetherFortresses-1.19.4-Fabric-1.2.0.jar -O mods/better_nether.jar && \
-    wget https://cdn-raw.modrinth.com/data/8RtckdKf/versions/6N8NcYZO/rpgstats-4.5.0%2B1.19.2.jar -O mods/rpg_stats.jar && \
     wget https://cdn-raw.modrinth.com/data/cwKtPx6L/versions/1.1.2-1.19/SimplyHouses-1.1.2-1.19-fabric.jar -O mods/simply_houses.jar && \
     wget https://cdn-raw.modrinth.com/data/o1C1Dkj5/versions/ndfXFrkZ/YungsBetterDungeons-1.19.4-Fabric-3.4.0.jar -O mods/better_dung.jar && \
     wget https://cdn-raw.modrinth.com/data/HjmxVlSr/versions/TzrcWYpl/YungsBetterMineshafts-1.19.4-Fabric-3.4.0.jar -O mods/better_mineshaft.jar && \
