@@ -73,8 +73,11 @@ To update the server, edit the Dockerfile and change the MINECRAFT_VERSION, GEYS
 ## Acknowledgments 🙌
 
 GeyserMC and Floodgate for enabling cross-platform play
+
 All mod creators for their hard work and dedication to the Minecraft community
+
 The OpenJDK team for providing a lightweight and efficient Java runtime environment
+
 Docker for simplifying deployment and management of applications
 
 
