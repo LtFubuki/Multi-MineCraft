@@ -66,7 +66,7 @@ After making changes to the configuration files or the Dockerfile, rebuild the i
 
 ## Updating the Server ⏫
 
-To update the server, edit the Dockerfile and change the MINECRAFT_VERSION, GEYSER_VERSION, and FLOODGATE_VERSION environment variables to the desired version numbers. Then, run the ./setup.sh script to rebuild the image and restart the container.
+To update the server, edit the Dockerfile and change the MINECRAFT_VERSION, GEYSER_VERSION, and FLOODGATE_VERSION environment variables to the desired version numbers. Then, run the ./run.sh script to rebuild the image and restart the container.
 
 ⚠️ Warning: Updating the server may cause compatibility issues with existing worlds, plugins, or mods. Always create a backup of your server data before updating.
 
