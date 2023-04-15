@@ -31,6 +31,7 @@ download_configuration_files_and_start_script() {
   if wget https://raw.githubusercontent.com/LtFubuki/Multi-MineCraft/main/server.properties \
     && wget https://raw.githubusercontent.com/LtFubuki/Multi-MineCraft/main/geyser-config.yml \
     && wget https://raw.githubusercontent.com/LtFubuki/Multi-MineCraft/main/floodgate-config.yml \
+    && wget https://raw.githubusercontent.com/LtFubuki/Multi-MineCraft/main/ops.json \
     && wget https://raw.githubusercontent.com/LtFubuki/Multi-MineCraft/main/start.sh; then
     chmod +x start.sh
     echo "Configuration files and start script downloaded successfully."
@@ -46,6 +47,7 @@ run_docker_container() {
     -p 25565:25565 \
     -p 8123:8123 \
     -p 19132:19132/udp \
+    -v "$(pwd)/ops.json:/minecraft/ops.json" \
     -v "$(pwd)/server.properties:/minecraft/server.properties" \
     -v "$(pwd)/geyser-config.yml:/minecraft/geyser-config.yml" \
     -v "$(pwd)/floodgate-config.yml:/minecraft/floodgate-config.yml" \
