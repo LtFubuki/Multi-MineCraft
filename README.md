@@ -99,6 +99,26 @@ The server can be run by creating a Docker container from the image and exposing
 
 ## 
 
+The Bash script that automates the process of setting up a Minecraft server using Docker. It does the following:
+
+Defines the name of the new Docker image and container.
+Builds the Docker image from the specified GitHub repository.
+Stops and removes the old Docker container if it exists.
+Downloads the necessary configuration files and start script for the Minecraft server.
+Runs the new Docker container with the appropriate settings and port mappings.
+
+Here's a step-by-step explanation of the script:
+
+Set the Docker image and container name variables.
+Define the build_docker_image function that builds the Docker image from the given GitHub repository. If successful, print a message; otherwise, print an error message and exit the script with exit code 1.
+Define the stop_and_remove_old_container function that checks if a Docker container with the specified name exists. If it does, stop and remove it. If successful, print a message; otherwise, print an error message and exit the script with exit code 1.
+Define the download_configuration_files_and_start_script function that downloads the necessary configuration files and start script for the Minecraft server. If successful, set executable permissions for the start script and print a message; otherwise, print an error message and exit the script with exit code 1.
+Define the run_docker_container function that runs the Docker container with the appropriate settings and port mappings. If successful, print a message; otherwise, print an error message and exit the script with exit code 1.
+Define the main function that calls the previously defined functions in the correct order.
+Call the main function to start the script.
+This script assumes that Docker is installed on the system and that the user has the appropriate permissions to run Docker commands.
+
+
 
 
 
