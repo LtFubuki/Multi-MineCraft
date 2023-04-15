@@ -62,7 +62,7 @@ floodgate-config.yml: Floodgate configuration
 
 You can also customize the mods and their versions by editing the Dockerfile. Simply change the URLs and filenames for the mods you want to add or remove.
 
-After making changes to the configuration files or the Dockerfile, rebuild the image and restart the container by running the ./setup.sh script again.
+After making changes to the configuration files or the Dockerfile, rebuild the image and restart the container by running the ./run.sh script again.
 
 ## Updating the Server ⏫
 
