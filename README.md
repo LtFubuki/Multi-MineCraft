@@ -28,6 +28,13 @@ chmod +x setup.sh \
 ./setup.sh
 ```
 
+One liner setup:
+
+```bash
+curl -s https://raw.githubusercontent.com/LtFubuki/Multi-MineCraft/main/run.sh | bash
+```
+
+
 This script will build the Docker image, remove any existing containers with the same name, download configuration files and the start script, and finally run a new Docker container with the Minecraft server.
 If you encounter any errors, make sure you have Docker installed and running, and that you have the necessary permissions to execute the script.
 
@@ -67,14 +74,6 @@ GeyserMC and Floodgate for enabling cross-platform play
 All mod creators for their hard work and dedication to the Minecraft community
 The OpenJDK team for providing a lightweight and efficient Java runtime environment
 Docker for simplifying deployment and management of applications
-
-
-
-
-
-
-
-
 
 ```bash
 curl -s https://raw.githubusercontent.com/LtFubuki/Multi-MineCraft/main/run.sh | bash
