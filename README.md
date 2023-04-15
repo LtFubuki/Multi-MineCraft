@@ -2,7 +2,7 @@
 
 This repository contains a Dockerfile and a setup script for deploying a Minecraft server with several mods, GeyserMC, and Floodgate. The server allows both Java and Bedrock Edition players to join.
 
-![Minecraft](https://www.minecraft.net/content/dam/archive/og-image/minecraft-hero-og.jpg)
+![Minecraft](https://geysermc.org/img/geyser.png)
 
 ## Prerequisites 📚
 
