@@ -75,6 +75,30 @@ All mod creators for their hard work and dedication to the Minecraft community
 The OpenJDK team for providing a lightweight and efficient Java runtime environment
 Docker for simplifying deployment and management of applications
 
-```bash
-curl -s https://raw.githubusercontent.com/LtFubuki/Multi-MineCraft/main/run.sh | bash
-```
+
+# Further explanation of files
+
+## Dockerfile
+
+The Dockerfile is used to create a Docker image for a Minecraft server with several mods, GeyserMC, and Floodgate. It is based on the official OpenJDK 17 Alpine image. Here is a breakdown of the Dockerfile:
+
+It uses the official OpenJDK 17 Alpine image as the base image.
+Sets environment variables for Minecraft, Geyser, and Floodgate versions.
+Creates and set the working directory to /minecraft.
+Downloads the Minecraft server JAR file and accept the EULA by creating an eula.txt file with the content eula=true.
+Creates a mods directory and download various mods into it.
+Downloads GeyserMC and Floodgate JAR files and place them in the mods directory.
+Copies the configuration files and the start script into the working directory.
+Makes the start script executable using chmod +x.
+Exposes the server ports: 25565 (Minecraft), 8123 (Dynmap web server), and 19132 (Bedrock Edition UDP port).
+Defines the start command to run the start.sh script.
+
+Once this Dockerfile is used to build an image, the image will contain a Minecraft server with the specified mods, GeyserMC, and Floodgate, along with the necessary configuration files and start script. 
+The server can be run by creating a Docker container from the image and exposing the necessary ports.
+
+
+## 
+
+
+
+
