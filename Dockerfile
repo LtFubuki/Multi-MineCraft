@@ -27,6 +27,7 @@ RUN mkdir mods && \
     wget https://cdn-raw.modrinth.com/data/AANobbMI/versions/b4hTi3mo/sodium-fabric-mc1.19.4-0.4.10%2Bbuild.24.jar -O mods/sodium.jar && \
     wget https://cdn-raw.modrinth.com/data/Fb4jn8m6/versions/BQ6i1U5X/FallingTree-1.19.4-3.12.1.jar -O mods/falling_tree.jar && \
     wget https://cdn-raw.modrinth.com/data/fgmhI8kH/versions/3eXWBWdB/ctov-3.1.8.jar -O mods/CTOV.jar && \
+    wget https://cdn.modrinth.com/data/yn9u3ypm/versions/vHvEE5VR/graves-2.2.1%2B1.19.4.jar -O mods/graves.jar && \
     wget https://cdn-raw.modrinth.com/data/TWsbC6jW/versions/wtEjVsXc/AdditionalStructures-1.19.x-%28v.4.1.1%29.jar -O mods/add_structures.jar && \
     wget https://cdn-raw.modrinth.com/data/Ua7DFN59/versions/h32n7OPC/YungsApi-1.19.4-Fabric-3.10.1.jar -O mods/yungs_api.jar && \
     wget https://cdn-raw.modrinth.com/data/XNlO7sBv/versions/XPZvt9X7/YungsBetterDesertTemples-1.19.4-Fabric-2.4.0.jar -O mods/better_temples.jar && \
