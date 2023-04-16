@@ -47,7 +47,7 @@ run_docker_container() {
     -p 25565:25565 \
     -p 8123:8123 \
     -p 19132:19132/udp \
-    -v "$(pwd)/minecraft:/minecraft" \
+    -v "$(pwd)/minecraft/world:/minecraft/world" \
     -v "$(pwd)/ops.json:/minecraft/ops.json" \
     -v "$(pwd)/server.properties:/minecraft/server.properties" \
     -v "$(pwd)/geyser-config.yml:/minecraft/geyser-config.yml" \
