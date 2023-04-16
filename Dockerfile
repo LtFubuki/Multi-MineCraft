@@ -42,7 +42,9 @@ RUN mkdir mods && \
     wget https://cdn-raw.modrinth.com/data/DQIfKUHf/versions/cEi0Qx95/styledplayerlist-2.3.0%2B1.19.3.jar -O mods/styled_list.jar && \
     wget https://cdn-raw.modrinth.com/data/ZYgyPyfq/versions/MUzrN78m/YungsExtras-1.19.4-Fabric-3.3.0.jar -O mods/yung_extras.jar && \
     wget https://cdn.modrinth.com/data/yn9u3ypm/versions/vHvEE5VR/graves-2.2.1%2B1.19.4.jar -O mods/graves.jar && \
-    wget https://cdn-raw.modrinth.com/data/5ibSyLAz/versions/c28ouOKs/InventorySorter-1.8.10-1.19.4.jar -O mods/inv_sorter.jar
+    wget https://cdn-raw.modrinth.com/data/5ibSyLAz/versions/c28ouOKs/InventorySorter-1.8.10-1.19.4.jar -O mods/inv_sorter.jar && \
+    wget https://cdn-raw.modrinth.com/data/j5niDupl/versions/Ct24tmE3/goml-1.8.1%2B1.19.4-rc3.jar -O mods/GOML.jar && \
+    wget https://cdn-raw.modrinth.com/data/IEPAK5x6/versions/VNL9qxuN/htm-1.1.8.jar -O mods/HTM.jar
 
 # Download GeyserMC and Floodgate
 RUN wget https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/fabric -O mods/Geyser.jar && \
