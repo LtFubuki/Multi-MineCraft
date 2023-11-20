@@ -1,5 +1,5 @@
 # Use the official OpenJDK image as the base image
-FROM openjdk:17-latest
+FROM openjdk
 
 # Set environment variables
 ENV MINECRAFT_VERSION="1.19.4" \
