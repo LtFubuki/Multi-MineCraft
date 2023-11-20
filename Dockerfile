@@ -10,7 +10,7 @@ ENV MINECRAFT_VERSION="1.19.4" \
 RUN mkdir -p /minecraft
 WORKDIR /minecraft
 
-RUN apk add wget -y
+RUN apt-get install wget -y
 
 # Download the Minecraft server and accept the EULA
 RUN wget https://meta.fabricmc.net/v2/versions/loader/1.19.4/0.14.19/0.11.2/server/jar -O minecraft_server.jar && \
