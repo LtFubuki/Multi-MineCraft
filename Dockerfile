@@ -1,5 +1,5 @@
 # Use the official OpenJDK image as the base image
-FROM arm64v8/openjdk:22-ea-24-jdk-bullseye
+FROM arm64v8/openjdk:17-ea-24-jdk-bullseye
 
 # Set environment variables
 ENV MINECRAFT_VERSION="1.19.4" \
