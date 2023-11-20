@@ -16,7 +16,7 @@ RUN wget https://meta.fabricmc.net/v2/versions/loader/1.20.2/0.14.24/0.11.2/serv
 
 #download Mods
 RUN mkdir mods && \
-    wget https://mediafilez.forgecdn.net/files/4474/468/fabric-api-0.77.0%2B1.19.4.jar -O mods/fabric_api.jar && \
+    wget https://cdn.modrinth.com/data/P7dR8mSH/versions/FhOnpSMY/fabric-api-0.90.7%2B1.20.2.jar -O mods/fabric_api.jar && \
     wget https://mediafilez.forgecdn.net/files/4466/959/fabric-language-kotlin-1.9.3%2Bkotlin.1.8.20.jar -O mods/fabric_kotlin.jar && \
     wget https://cdn-raw.modrinth.com/data/9s6osm5g/versions/6XGTNEII/cloth-config-10.0.96-fabric.jar -O mods/cloth_config.jar && \
     wget https://cdn-raw.modrinth.com/data/e0M1UDsY/versions/PvuijvUl/collective-1.19.4-6.54.jar -O mods/collective.jar && \
