@@ -20,7 +20,6 @@ RUN mkdir mods && \
     wget https://mediafilez.forgecdn.net/files/4466/959/fabric-language-kotlin-1.9.3%2Bkotlin.1.8.20.jar -O mods/fabric_kotlin.jar && \
     wget https://cdn-raw.modrinth.com/data/9s6osm5g/versions/6XGTNEII/cloth-config-10.0.96-fabric.jar -O mods/cloth_config.jar && \
     wget https://cdn-raw.modrinth.com/data/e0M1UDsY/versions/PvuijvUl/collective-1.19.4-6.54.jar -O mods/collective.jar && \
-    wget https://cdn.modrinth.com/data/fRQREgAc/versions/vqx7tUUt/Dynmap-3.6-fabric-1.20.jar -O mods/dyn_map.jar && \
     wget https://cdn.modrinth.com/data/PTGd6dWp/versions/ZlwA2G0d/mostructures-1.4.3%2B1.19.4.jar -O mods/mo_structures.jar && \
     wget https://cdn-raw.modrinth.com/data/AANobbMI/versions/b4hTi3mo/sodium-fabric-mc1.19.4-0.4.10%2Bbuild.24.jar -O mods/sodium.jar && \
     wget https://cdn-raw.modrinth.com/data/Fb4jn8m6/versions/BQ6i1U5X/FallingTree-1.19.4-3.12.1.jar -O mods/falling_tree.jar && \
