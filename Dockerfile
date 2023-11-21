@@ -28,7 +28,11 @@ RUN mkdir mods && \
     wget https://cdn.modrinth.com/data/fQEb0iXm/versions/cQ60Ouax/krypton-0.2.4.jar -O mods/krypton.jar && \
     wget https://cdn.modrinth.com/data/VSNURh3q/versions/ilKwGRiJ/c2me-fabric-mc1.20.2-0.2.0%2Balpha.10.126.jar -O mods/c2m.jar && \
     wget https://cdn.modrinth.com/data/nmDcB62a/versions/nYh2qee4/modernfix-fabric-5.9.3%2Bmc1.20.2.jar -O mods/modern_fix.jar && \
-    wget https://cdn.modrinth.com/data/6AQIaxuO/versions/6kxhK91z/wthit-fabric-9.1.1.jar -O mods/wthit.jar
+    wget https://cdn.modrinth.com/data/6AQIaxuO/versions/6kxhK91z/wthit-fabric-9.1.1.jar -O mods/wthit.jar && \
+    wget https://cdn.modrinth.com/data/1bokaNcj/versions/c30OIq97/Xaeros_Minimap_23.8.4_Fabric_1.20.2.jar -O mods/minimap.jar && \
+    wget https://cdn.modrinth.com/data/gF3BGWvG/versions/S8D2XDRk/open-parties-and-claims-fabric-1.20.2-0.20.0.jar -O mods/OPAC.jar && \
+    wget https://cdn.modrinth.com/data/ohNO6lps/versions/f5d9VI72/ForgeConfigAPIPort-v9.0.0-1.20.2-Fabric.jar -O mods/forge_fabricAPI.jar && \
+    wget https://cdn.modrinth.com/data/NcUtCpym/versions/IWg1Z5mJ/XaerosWorldMap_1.36.0_Fabric_1.20.2.jar -O mods/wordmap.jar
     
 # Download GeyserMC and Floodgate
 RUN wget https://ci.opencollab.dev/job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/fabric/build/libs/Geyser-Fabric.jar -O mods/Geyser.jar && \
