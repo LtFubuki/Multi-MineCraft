@@ -26,7 +26,8 @@ RUN mkdir mods && \
     wget https://cdn.modrinth.com/data/gvQqBUqZ/versions/qdzL5Hkg/lithium-fabric-mc1.20.2-0.12.0.jar -O mods/lithium.jar && \
     wget https://cdn.modrinth.com/data/yn9u3ypm/versions/v0FIdWkz/graves-3.1.1%2B1.20.2.jar -O mods/graves.jar && \
     wget https://cdn.modrinth.com/data/fQEb0iXm/versions/cQ60Ouax/krypton-0.2.4.jar -O mods/krypton.jar && \
-    wget https://cdn.modrinth.com/data/VSNURh3q/versions/ilKwGRiJ/c2me-fabric-mc1.20.2-0.2.0%2Balpha.10.126.jar -O mods/c2m.jar
+    wget https://cdn.modrinth.com/data/VSNURh3q/versions/ilKwGRiJ/c2me-fabric-mc1.20.2-0.2.0%2Balpha.10.126.jar -O mods/c2m.jar && \
+    wget https://cdn.modrinth.com/data/nmDcB62a/versions/nYh2qee4/modernfix-fabric-5.9.3%2Bmc1.20.2.jar -O mods/modern_fix.jar
     
 # Download GeyserMC and Floodgate
 RUN wget https://ci.opencollab.dev/job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/fabric/build/libs/Geyser-Fabric.jar -O mods/Geyser.jar && \
