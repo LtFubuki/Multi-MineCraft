@@ -4,4 +4,4 @@
 #java -jar Geyser.jar & java -jar Floodgate.jar &
 
 # Start the Minecraft server
-exec java -Xmx20G -jar minecraft_server.jar --nogui
+exec java -Xmx6G -jar minecraft_server.jar --nogui
