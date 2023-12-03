@@ -34,7 +34,8 @@ RUN mkdir mods && \
     wget https://cdn.modrinth.com/data/ohNO6lps/versions/f5d9VI72/ForgeConfigAPIPort-v9.0.0-1.20.2-Fabric.jar -O mods/forge_fabricAPI.jar && \
     wget https://cdn.modrinth.com/data/NcUtCpym/versions/IWg1Z5mJ/XaerosWorldMap_1.36.0_Fabric_1.20.2.jar -O mods/wordmap.jar && \
     wget https://cdn.modrinth.com/data/YlKdE5VK/versions/x9bibmK0/ViaFabric-0.4.11%2B50-dev.jar -O mods/via_fabric.jar && \
-    wget https://cdn.modrinth.com/data/NpvuJQoq/versions/cR1Mz9Pu/ViaBackwards-4.9.0-1.20.3-rc1-SNAPSHOT.jar -O mods/via_backwards.jar
+    wget https://cdn.modrinth.com/data/NpvuJQoq/versions/cR1Mz9Pu/ViaBackwards-4.9.0-1.20.3-rc1-SNAPSHOT.jar -O mods/via_backwards.jar && \
+    wget https://cdn.modrinth.com/data/TbHIxhx5/versions/oeiZvbCH/ViaRewind-3.0.4-SNAPSHOT.jar -O mods/via_rewind.jar
     
 # Download GeyserMC and Floodgate
 RUN wget https://ci.opencollab.dev/job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/fabric/build/libs/Geyser-Fabric.jar -O mods/Geyser.jar && \
