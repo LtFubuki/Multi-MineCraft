@@ -17,7 +17,7 @@ RUN wget https://meta.fabricmc.net/v2/versions/loader/1.20.1/0.15.0/0.11.2/serve
 #download Mods
 RUN mkdir mods && \
     wget https://cdn.modrinth.com/data/P7dR8mSH/versions/YblXfKtI/fabric-api-0.91.0%2B1.20.1.jar -O mods/fabric_api.jar && \
-    https://cdn.modrinth.com/data/9s6osm5g/versions/s7VTKfLA/cloth-config-11.1.106-fabric.jar -O mods/cloth.jar && \
+    wget https://cdn.modrinth.com/data/9s6osm5g/versions/s7VTKfLA/cloth-config-11.1.106-fabric.jar -O mods/cloth.jar && \
     wget https://cdn.modrinth.com/data/TWsbC6jW/versions/4aO595R4/AdditionalStructures-1.20.x-%28v.4.2.1%29.jar -O mods/add_strucs.jar && \
     wget https://cdn.modrinth.com/data/HJR6V0I2/versions/4ZQjIDUu/more_mobs-v1.5-mc1.14x-1.20x-mod.jar -O mods/mo_mobs.jar && \ 
     wget https://cdn.modrinth.com/data/Fb4jn8m6/versions/akjkv5e2/FallingTree-1.20.1-4.3.2.jar -O mods/falling_tree.jar && \
