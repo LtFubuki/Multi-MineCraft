@@ -16,26 +16,18 @@ RUN wget https://meta.fabricmc.net/v2/versions/loader/1.20.1/0.15.0/0.11.2/serve
 
 #download Mods
 RUN mkdir mods && \
-    wget https://cdn.modrinth.com/data/P7dR8mSH/versions/FhOnpSMY/fabric-api-0.90.7%2B1.20.2.jar -O mods/fabric_api.jar && \
-    wget https://cdn.modrinth.com/data/9s6osm5g/versions/jvy82BGQ/cloth-config-12.0.111-fabric.jar -O mods/cloth.jar && \
+    wget https://cdn.modrinth.com/data/P7dR8mSH/versions/YblXfKtI/fabric-api-0.91.0%2B1.20.1.jar -O mods/fabric_api.jar && \
+    https://cdn.modrinth.com/data/9s6osm5g/versions/s7VTKfLA/cloth-config-11.1.106-fabric.jar -O mods/cloth.jar && \
     wget https://cdn.modrinth.com/data/TWsbC6jW/versions/4aO595R4/AdditionalStructures-1.20.x-%28v.4.2.1%29.jar -O mods/add_strucs.jar && \
-    wget https://cdn.modrinth.com/data/egyqODDj/versions/t2PB8GHU/spellbound-weapons-v4.0.5g.jar -O mods/bound_wepons.jar && \
     wget https://cdn.modrinth.com/data/HJR6V0I2/versions/4ZQjIDUu/more_mobs-v1.5-mc1.14x-1.20x-mod.jar -O mods/mo_mobs.jar && \ 
-    wget https://cdn.modrinth.com/data/Fb4jn8m6/versions/7PRbBpzE/FallingTree-1.20.2-5.0.3.jar -O mods/falling_tree.jar && \
+    wget https://cdn.modrinth.com/data/Fb4jn8m6/versions/akjkv5e2/FallingTree-1.20.1-4.3.2.jar -O mods/falling_tree.jar && \
     wget https://cdn.modrinth.com/data/uXXizFIs/versions/unerR5MN/ferritecore-6.0.1-fabric.jar -O mods/ferrite.jar && \
-    wget https://cdn.modrinth.com/data/gvQqBUqZ/versions/qdzL5Hkg/lithium-fabric-mc1.20.2-0.12.0.jar -O mods/lithium.jar && \
-    wget https://cdn.modrinth.com/data/yn9u3ypm/versions/v0FIdWkz/graves-3.1.1%2B1.20.2.jar -O mods/graves.jar && \
-    wget https://cdn.modrinth.com/data/fQEb0iXm/versions/cQ60Ouax/krypton-0.2.4.jar -O mods/krypton.jar && \
-    wget https://cdn.modrinth.com/data/VSNURh3q/versions/ilKwGRiJ/c2me-fabric-mc1.20.2-0.2.0%2Balpha.10.126.jar -O mods/c2m.jar && \
-    wget https://cdn.modrinth.com/data/1bokaNcj/versions/c30OIq97/Xaeros_Minimap_23.8.4_Fabric_1.20.2.jar -O mods/minimap.jar && \
-    wget https://cdn.modrinth.com/data/ftdbN0KK/versions/V9mKHSKL/badpackets-neo-0.5.4.jar -O mods/bad_packets.jar && \
-    wget https://cdn.modrinth.com/data/nmDcB62a/versions/nYh2qee4/modernfix-fabric-5.9.3%2Bmc1.20.2.jar -O mods/modernfix.jar && \
-    wget https://cdn.modrinth.com/data/gF3BGWvG/versions/S8D2XDRk/open-parties-and-claims-fabric-1.20.2-0.20.0.jar -O mods/OPAC.jar && \
-    wget https://cdn.modrinth.com/data/ohNO6lps/versions/f5d9VI72/ForgeConfigAPIPort-v9.0.0-1.20.2-Fabric.jar -O mods/forge_fabricAPI.jar && \
-    wget https://cdn.modrinth.com/data/NcUtCpym/versions/IWg1Z5mJ/XaerosWorldMap_1.36.0_Fabric_1.20.2.jar -O mods/wordmap.jar && \
-    wget https://cdn.modrinth.com/data/YlKdE5VK/versions/x9bibmK0/ViaFabric-0.4.11%2B50-dev.jar -O mods/via_fabric.jar && \
-    wget https://cdn.modrinth.com/data/NpvuJQoq/versions/cR1Mz9Pu/ViaBackwards-4.9.0-1.20.3-rc1-SNAPSHOT.jar -O mods/via_backwards.jar && \
-    wget https://cdn.modrinth.com/data/TbHIxhx5/versions/oeiZvbCH/ViaRewind-3.0.4-SNAPSHOT.jar -O mods/via_rewind.jar
+    wget https://cdn.modrinth.com/data/gvQqBUqZ/versions/ZSNsJrPI/lithium-fabric-mc1.20.1-0.11.2.jar -O mods/lithium.jar && \
+    wget https://cdn.modrinth.com/data/yn9u3ypm/versions/KTdIlBNB/graves-3.0.0%2B1.20.1.jar -O mods/graves.jar && \
+    wget https://cdn.modrinth.com/data/fQEb0iXm/versions/jiDwS0W1/krypton-0.2.3.jar -O mods/krypton.jar && \
+    wget https://cdn.modrinth.com/data/VSNURh3q/versions/T5Pkyhit/c2me-fabric-mc1.20.1-0.2.0%2Balpha.11.0.jar -O mods/c2m.jar && \
+    wget https://cdn.modrinth.com/data/ftdbN0KK/versions/JjLWLyDz/badpackets-fabric-0.4.3.jar -O mods/bad_packets.jar && \
+    wget https://cdn.modrinth.com/data/nmDcB62a/versions/cuMfXHwk/modernfix-fabric-5.9.3%2Bmc1.20.1.jar -O mods/modernfix.jar
     
 # Download GeyserMC and Floodgate
 RUN wget https://ci.opencollab.dev/job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/fabric/build/libs/Geyser-Fabric.jar -O mods/Geyser.jar && \
