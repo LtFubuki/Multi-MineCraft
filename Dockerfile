@@ -30,8 +30,8 @@ RUN mkdir mods && \
     wget https://cdn.modrinth.com/data/nmDcB62a/versions/cuMfXHwk/modernfix-fabric-5.9.3%2Bmc1.20.1.jar -O mods/modernfix.jar
     
 # Download GeyserMC and Floodgate
-RUN wget https://ci.opencollab.dev/job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/fabric/build/libs/Geyser-Fabric.jar -O mods/Geyser.jar && \
-    wget https://ci.opencollab.dev/job/GeyserMC/job/Floodgate-Fabric/job/master/lastSuccessfulBuild/artifact/build/libs/floodgate-fabric.jar -O mods/Floodgate.jar
+RUN wget https://cdn.modrinth.com/data/wKkoqHrH/versions/sxF4OIVL/geyser-fabric-2.2.0-SNAPSHOT%2Bbuild.317.jar -O mods/Geyser.jar && \
+    wget https://cdn.modrinth.com/data/bWrNNfkb/versions/vIbusVdM/floodgate-fabric.jar -O mods/Floodgate.jar
 
 # Copy configuration files and start script
 COPY server.properties ./
