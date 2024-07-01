@@ -49,7 +49,6 @@ RUN mkdir mods && \
     wget https://cdn.modrinth.com/data/FCTyEqkn/versions/7aXwwLYh/whereisit-2.5.0%2B1.21.jar -O mods/whereisit.jar && \
     wget https://cdn.modrinth.com/data/PTGd6dWp/versions/PJDAHUHg/mostructures-fabric-1.5.0%2B1.21.jar -O mods/mostrucs.jar && \
     wget https://cdn.modrinth.com/data/264clomZ/versions/bxr8NNbQ/liberty-villagers-mod-1.0.15%2Bfabric%2B1.21.jar -O mods/liberty.jar && \
-    wget https://cdn.modrinth.com/data/O6Sh7btX/versions/ahcjrWd5/grabbymobs-1.21.0-1.5.jar -O mods/grabby.jar && \
     wget https://cdn.modrinth.com/data/e0M1UDsY/versions/ZaTRzQs8/collective-1.21.0-7.70.jar -O mods/collective.jar && \
     wget https://cdn.modrinth.com/data/EJqeyaVz/versions/czJQJ7qH/nohostilesaroundcampfire-1.21.0-7.0.jar -O mods/nohostile.jar && \
     wget https://cdn.modrinth.com/data/cnIatHrN/versions/qIZLODKH/universal_shops-1.7.0%2B1.21.jar -O mods/shops.jar && \
