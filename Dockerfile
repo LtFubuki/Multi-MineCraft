@@ -16,18 +16,45 @@ RUN wget https://meta.fabricmc.net/v2/versions/loader/1.21/0.15.11/1.0.1/server/
 
 #download Mods
 RUN mkdir mods && \
-    wget https://cdn.modrinth.com/data/P7dR8mSH/versions/n2c5lxAo/fabric-api-0.83.0%2B1.20.jar -O mods/fabric_api.jar && \
-    wget https://cdn.modrinth.com/data/9s6osm5g/versions/s7VTKfLA/cloth-config-11.1.106-fabric.jar -O mods/cloth.jar && \
-    wget https://cdn.modrinth.com/data/TWsbC6jW/versions/4aO595R4/AdditionalStructures-1.20.x-%28v.4.2.1%29.jar -O mods/add_strucs.jar && \
-    wget https://cdn.modrinth.com/data/HJR6V0I2/versions/4ZQjIDUu/more_mobs-v1.5-mc1.14x-1.20x-mod.jar -O mods/mo_mobs.jar && \ 
-    wget https://cdn.modrinth.com/data/Fb4jn8m6/versions/KRt1RhNH/FallingTree-1.20-4.0.2.jar -O mods/falling_tree.jar && \
-    wget https://cdn.modrinth.com/data/uXXizFIs/versions/unerR5MN/ferritecore-6.0.1-fabric.jar -O mods/ferrite.jar && \
-    wget https://cdn.modrinth.com/data/gvQqBUqZ/versions/2KMrj5c1/lithium-fabric-mc1.20-0.11.2.jar -O mods/lithium.jar && \
-    wget https://cdn.modrinth.com/data/yn9u3ypm/versions/t2XaWkkQ/graves-3.0.0-beta.4%2B1.20.1.jar -O mods/graves.jar && \
-    wget https://cdn.modrinth.com/data/fQEb0iXm/versions/jiDwS0W1/krypton-0.2.3.jar -O mods/krypton.jar && \
-    wget https://cdn.modrinth.com/data/VSNURh3q/versions/L5rSwveR/c2me-fabric-mc1.20-0.2.0%2Balpha.10.89.jar -O mods/c2m.jar && \
-    wget https://cdn.modrinth.com/data/ftdbN0KK/versions/JjLWLyDz/badpackets-fabric-0.4.3.jar -O mods/bad_packets.jar && \
-    wget https://cdn.modrinth.com/data/nmDcB62a/versions/WENf7fmL/modernfix-fabric-5.0.2%2Bmc1.20.jar -O mods/modernfix.jar
+    wget https://cdn.modrinth.com/data/P7dR8mSH/versions/oIVA3FbL/fabric-api-0.100.4%2B1.21.jar -O mods/fabric_api.jar && \
+    wget https://cdn.modrinth.com/data/9s6osm5g/versions/Yc8omJNb/cloth-config-15.0.127-fabric.jar -O mods/cloth.jar && \
+    wget https://cdn.modrinth.com/data/gvQqBUqZ/versions/my7uONjU/lithium-fabric-mc1.21-0.12.7.jar -O mods/lithium.jar && \
+    wget https://cdn.modrinth.com/data/uXXizFIs/versions/wmIZ4wP4/ferritecore-7.0.0-fabric.jar -O mods/ferritcore.jar && \
+    wget https://cdn.modrinth.com/data/nmDcB62a/versions/AFvoBfkx/modernfix-fabric-5.18.3%2Bmc1.21.jar -O mods/modernfix.jar && \
+    wget https://cdn.modrinth.com/data/QwxR6Gcd/versions/mOk69fib/Debugify-1.21%2B1.0.jar -O mods/debug.jar && \
+    wget https://cdn.modrinth.com/data/1eAoo2KR/versions/Y8Wa10Re/YetAnotherConfigLib-3.5.0%2B1.21-fabric.jar -O mods/yetanotherconfig.jar && \
+    wget https://cdn.modrinth.com/data/nPZr02ET/versions/nSxqDibl/netherportalfix-fabric-1.21-21.0.2.jar -O mods/netherfix.jar && \
+    wget https://cdn.modrinth.com/data/MBAkmtvl/versions/ryOwjzmq/balm-fabric-1.21-21.0.11.jar -O mods/balm.jar && \
+    wget https://cdn.modrinth.com/data/8oi3bsk5/versions/5k90Bexh/Terralith_1.21_v2.5.3.jar -O mods/terralith.jar && \
+    wget https://cdn.modrinth.com/data/Fb4jn8m6/versions/7x1mqvWh/FallingTree-1.21-1.21.0.5.jar -O mods/fallingtree.jar && \
+    wget https://cdn.modrinth.com/data/ftdbN0KK/versions/ac4a1Xj7/badpackets-fabric-0.8.1.jar -O mods/badpackets.jar && \
+    wget https://cdn.modrinth.com/data/fALzjamp/versions/dPliWter/Chunky-1.4.16.jar -O mods/chunky.jar && \
+    wget https://cdn.modrinth.com/data/lWDHr9jE/versions/NypAubyx/tectonic-fabric-1.21-2.4.0.jar -O mods/tectonic.jar && \
+    wget https://cdn.modrinth.com/data/XaDC71GB/versions/UlXj63sO/lithostitched-fabric-1.21-1.2.1.jar -O mods/lithed.jar && \
+    wget https://cdn.modrinth.com/data/H7N61Wcl/versions/g5ED4w8B/dismountentity-1.21.0-3.3.jar -O mods/dismount.jar && \
+    wget https://cdn.modrinth.com/data/gqRXDo8B/versions/3Wfwymh0/villagernames-1.21.0-8.0.jar -O mods/villagernames.jar && \
+    wget https://cdn.modrinth.com/data/6AQIaxuO/versions/jOm0aorp/wthit-fabric-12.2.2.jar -O mods/wthit.jar && \
+    wget https://cdn.modrinth.com/data/fRiHVvU7/versions/ivFE6ShM/emi-1.1.8%2B1.21%2Bfabric.jar -O mods/emi.jar && \
+    wget https://cdn.modrinth.com/data/nfn13YXA/versions/l5RqB76W/RoughlyEnoughItems-16.0.729-fabric.jar -O mods/ritems.jar && \
+    wget https://cdn.modrinth.com/data/lhGA9TYQ/versions/nW3HvWVP/architectury-13.0.3-fabric.jar -O mods/arch.jar && \
+    wget https://cdn.modrinth.com/data/muf0XoRe/versions/SCBq1LMb/repurposed_structures-7.5.3%2B1.21-fabric.jar -O mods/repurposed.jar && \
+    wget https://cdn.modrinth.com/data/codAaoxh/versions/HVILSMf5/midnightlib-fabric-1.5.7.jar -O mods/midnight.jar && \
+    wget https://cdn.modrinth.com/data/LPjGiSO4/versions/BoQYkOMa/Nullscape_1.21_v1.2.6.jar -O mods/nullscape.jar && \
+    wget https://cdn.modrinth.com/data/TWsbC6jW/versions/2lPBBaF4/AdditionalStructures-1.21-%28v.5.0.0-fabric%29.jar -O mods/addstrucs.jar && \
+    wget https://cdn.modrinth.com/data/2ecVyZ49/versions/QFfBwOwT/Ksyxis-1.3.2.jar -O mods/krysix.jar && \
+    wget https://cdn.modrinth.com/data/XVnUIUAQ/versions/2nLuXwjq/SnowUnderTrees-2.4.0%2B1.21.jar -O mods/snowunder.jar && \
+    wget https://cdn.modrinth.com/data/SNVQ2c0g/versions/dMTEZn0q/mru-0.4.4%2B1.21.jar -O mods/mru.jar && \
+    wget https://cdn.modrinth.com/data/yn9u3ypm/versions/qtHZSwwl/graves-3.4.1%2B1.21.jar -O mods/graves.jar && \
+    wget https://cdn.modrinth.com/data/xGdtZczs/versions/giGFb3g7/polymer-bundled-0.9.2%2B1.21.jar -O mods/polymer.jar && \
+    wget https://cdn.modrinth.com/data/FCTyEqkn/versions/7aXwwLYh/whereisit-2.5.0%2B1.21.jar -O mods/whereisit.jar && \
+    wget https://cdn.modrinth.com/data/PTGd6dWp/versions/PJDAHUHg/mostructures-fabric-1.5.0%2B1.21.jar -O mods/mostrucs.jar && \
+    wget https://cdn.modrinth.com/data/264clomZ/versions/bxr8NNbQ/liberty-villagers-mod-1.0.15%2Bfabric%2B1.21.jar -O mods/liberty.jar && \
+    wget https://cdn.modrinth.com/data/O6Sh7btX/versions/ahcjrWd5/grabbymobs-1.21.0-1.5.jar -O mods/grabby.jar && \
+    wget https://cdn.modrinth.com/data/e0M1UDsY/versions/ZaTRzQs8/collective-1.21.0-7.70.jar -O mods/collective.jar && \
+    wget https://cdn.modrinth.com/data/EJqeyaVz/versions/czJQJ7qH/nohostilesaroundcampfire-1.21.0-7.0.jar -O mods/nohostile.jar && \
+    wget https://cdn.modrinth.com/data/cnIatHrN/versions/qIZLODKH/universal_shops-1.7.0%2B1.21.jar -O mods/shops.jar && \
+    wget https://cdn.modrinth.com/data/rbJ7eS5V/versions/I3kp6jxL/dcintegration-fabric-3.0.7.2-1.21.jar -O mods/discord.jar && \
+    wget https://cdn.modrinth.com/data/tOoh2eQm/versions/Z92SIDcE/petnames-1.21.0-3.3.jar -O mods/petnames.jar
     
 # Download GeyserMC and Floodgate
 RUN wget https://cdn.modrinth.com/data/wKkoqHrH/versions/sxF4OIVL/geyser-fabric-2.2.0-SNAPSHOT%2Bbuild.317.jar -O mods/Geyser.jar && \
