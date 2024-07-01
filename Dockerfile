@@ -34,7 +34,6 @@ RUN mkdir mods && \
     wget https://cdn.modrinth.com/data/H7N61Wcl/versions/g5ED4w8B/dismountentity-1.21.0-3.3.jar -O mods/dismount.jar && \
     wget https://cdn.modrinth.com/data/gqRXDo8B/versions/3Wfwymh0/villagernames-1.21.0-8.0.jar -O mods/villagernames.jar && \
     wget https://cdn.modrinth.com/data/6AQIaxuO/versions/jOm0aorp/wthit-fabric-12.2.2.jar -O mods/wthit.jar && \
-    wget https://cdn.modrinth.com/data/fRiHVvU7/versions/ivFE6ShM/emi-1.1.8%2B1.21%2Bfabric.jar -O mods/emi.jar && \
     wget https://cdn.modrinth.com/data/nfn13YXA/versions/l5RqB76W/RoughlyEnoughItems-16.0.729-fabric.jar -O mods/ritems.jar && \
     wget https://cdn.modrinth.com/data/lhGA9TYQ/versions/nW3HvWVP/architectury-13.0.3-fabric.jar -O mods/arch.jar && \
     wget https://cdn.modrinth.com/data/muf0XoRe/versions/SCBq1LMb/repurposed_structures-7.5.3%2B1.21-fabric.jar -O mods/repurposed.jar && \
