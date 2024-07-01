@@ -53,7 +53,6 @@ RUN mkdir mods && \
     wget https://cdn.modrinth.com/data/e0M1UDsY/versions/ZaTRzQs8/collective-1.21.0-7.70.jar -O mods/collective.jar && \
     wget https://cdn.modrinth.com/data/EJqeyaVz/versions/czJQJ7qH/nohostilesaroundcampfire-1.21.0-7.0.jar -O mods/nohostile.jar && \
     wget https://cdn.modrinth.com/data/cnIatHrN/versions/qIZLODKH/universal_shops-1.7.0%2B1.21.jar -O mods/shops.jar && \
-    wget https://cdn.modrinth.com/data/rbJ7eS5V/versions/I3kp6jxL/dcintegration-fabric-3.0.7.2-1.21.jar -O mods/discord.jar && \
     wget https://cdn.modrinth.com/data/tOoh2eQm/versions/Z92SIDcE/petnames-1.21.0-3.3.jar -O mods/petnames.jar
     
 # Download GeyserMC and Floodgate
