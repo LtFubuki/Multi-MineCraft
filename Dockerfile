@@ -3,8 +3,8 @@ FROM arm64v8/openjdk:17-bullseye
 
 # Set environment variables
 ENV MINECRAFT_VERSION="1.21" \
-    GEYSER_VERSION="2.0.0-SNAPSHOT" \
-    FLOODGATE_VERSION="2.0"
+    GEYSER_VERSION="2.4.0-SNAPSHOT-587" \
+    FLOODGATE_VERSION="2.2.3-SNAPSHOT-28"
 
 # Create and set the working directory
 RUN mkdir -p /minecraft
@@ -57,8 +57,8 @@ RUN mkdir mods && \
     wget https://cdn.modrinth.com/data/tOoh2eQm/versions/Z92SIDcE/petnames-1.21.0-3.3.jar -O mods/petnames.jar
     
 # Download GeyserMC and Floodgate
-RUN wget https://cdn.modrinth.com/data/wKkoqHrH/versions/sxF4OIVL/geyser-fabric-2.2.0-SNAPSHOT%2Bbuild.317.jar -O mods/Geyser.jar && \
-    wget https://cdn.modrinth.com/data/bWrNNfkb/versions/vIbusVdM/floodgate-fabric.jar -O mods/Floodgate.jar
+RUN wget https://cdn.modrinth.com/data/wKkoqHrH/versions/LMmIRweS/geyser-fabric-2.4.0-SNAPSHOT%2Bbuild.587.jar -O mods/Geyser.jar && \
+    wget https://cdn.modrinth.com/data/bWrNNfkb/versions/D4KXqjtC/Floodgate-Fabric-2.2.3-SNAPSHOT%2Bbuild.28.jar -O mods/Floodgate.jar
 
 # Copy configuration files and start script
 COPY server.properties ./
