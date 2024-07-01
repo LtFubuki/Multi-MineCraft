@@ -56,6 +56,8 @@ RUN mkdir mods && \
     wget https://cdn.modrinth.com/data/IEPAK5x6/versions/2tO12wyr/htm-1.1.13.jar -O mods/heythatsmine.jar && \
     wget https://cdn.modrinth.com/data/Vo4uFiz0/versions/NNY19c1k/saplanting-fabric-1.21-1.2.6.jar -O mods/sapplanting.jar && \
     wget https://cdn.modrinth.com/data/l0tpiNe7/versions/4kJXWBwz/rain-grow-1.2.jar -O mods/raingowth.jar && \
+    wget https://cdn.modrinth.com/data/rbJ7eS5V/versions/I3kp6jxL/dcintegration-fabric-3.0.7.2-1.21.jar -O mods/discord.jar && \
+    wget https://cdn.modrinth.com/data/O6Sh7btX/versions/ahcjrWd5/grabbymobs-1.21.0-1.5.jar -O mods/grabby.jar && \
     wget https://cdn.modrinth.com/data/qPzLkTsE/versions/bWVkhDef/Mambience-5.5.1%2B1.21.jar -O mods/mambiance.jar
     
 # Download GeyserMC and Floodgate
