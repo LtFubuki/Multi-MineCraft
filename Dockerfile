@@ -2,7 +2,7 @@
 FROM arm64v8/openjdk:17-bullseye
 
 # Set environment variables
-ENV MINECRAFT_VERSION="1.20" \
+ENV MINECRAFT_VERSION="1.21" \
     GEYSER_VERSION="2.0.0-SNAPSHOT" \
     FLOODGATE_VERSION="2.0"
 
