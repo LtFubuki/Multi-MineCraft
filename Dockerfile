@@ -25,11 +25,9 @@ RUN mkdir mods && \
     wget https://cdn.modrinth.com/data/1eAoo2KR/versions/Y8Wa10Re/YetAnotherConfigLib-3.5.0%2B1.21-fabric.jar -O mods/yetanotherconfig.jar && \
     wget https://cdn.modrinth.com/data/nPZr02ET/versions/nSxqDibl/netherportalfix-fabric-1.21-21.0.2.jar -O mods/netherfix.jar && \
     wget https://cdn.modrinth.com/data/MBAkmtvl/versions/ryOwjzmq/balm-fabric-1.21-21.0.11.jar -O mods/balm.jar && \
-    wget https://cdn.modrinth.com/data/8oi3bsk5/versions/5k90Bexh/Terralith_1.21_v2.5.3.jar -O mods/terralith.jar && \
     wget https://cdn.modrinth.com/data/Fb4jn8m6/versions/7x1mqvWh/FallingTree-1.21-1.21.0.5.jar -O mods/fallingtree.jar && \
     wget https://cdn.modrinth.com/data/ftdbN0KK/versions/ac4a1Xj7/badpackets-fabric-0.8.1.jar -O mods/badpackets.jar && \
     wget https://cdn.modrinth.com/data/fALzjamp/versions/dPliWter/Chunky-1.4.16.jar -O mods/chunky.jar && \
-    wget https://cdn.modrinth.com/data/lWDHr9jE/versions/NypAubyx/tectonic-fabric-1.21-2.4.0.jar -O mods/tectonic.jar && \
     wget https://cdn.modrinth.com/data/XaDC71GB/versions/UlXj63sO/lithostitched-fabric-1.21-1.2.1.jar -O mods/lithed.jar && \
     wget https://cdn.modrinth.com/data/H7N61Wcl/versions/g5ED4w8B/dismountentity-1.21.0-3.3.jar -O mods/dismount.jar && \
     wget https://cdn.modrinth.com/data/gqRXDo8B/versions/3Wfwymh0/villagernames-1.21.0-8.0.jar -O mods/villagernames.jar && \
@@ -44,21 +42,13 @@ RUN mkdir mods && \
     wget https://cdn.modrinth.com/data/XVnUIUAQ/versions/2nLuXwjq/SnowUnderTrees-2.4.0%2B1.21.jar -O mods/snowunder.jar && \
     wget https://cdn.modrinth.com/data/SNVQ2c0g/versions/dMTEZn0q/mru-0.4.4%2B1.21.jar -O mods/mru.jar && \
     wget https://cdn.modrinth.com/data/yn9u3ypm/versions/qtHZSwwl/graves-3.4.1%2B1.21.jar -O mods/graves.jar && \
-    wget https://cdn.modrinth.com/data/xGdtZczs/versions/giGFb3g7/polymer-bundled-0.9.2%2B1.21.jar -O mods/polymer.jar && \
     wget https://cdn.modrinth.com/data/FCTyEqkn/versions/7aXwwLYh/whereisit-2.5.0%2B1.21.jar -O mods/whereisit.jar && \
     wget https://cdn.modrinth.com/data/PTGd6dWp/versions/PJDAHUHg/mostructures-fabric-1.5.0%2B1.21.jar -O mods/mostrucs.jar && \
-    wget https://cdn.modrinth.com/data/264clomZ/versions/bxr8NNbQ/liberty-villagers-mod-1.0.15%2Bfabric%2B1.21.jar -O mods/liberty.jar && \
-    wget https://cdn.modrinth.com/data/e0M1UDsY/versions/ZaTRzQs8/collective-1.21.0-7.70.jar -O mods/collective.jar && \
     wget https://cdn.modrinth.com/data/EJqeyaVz/versions/czJQJ7qH/nohostilesaroundcampfire-1.21.0-7.0.jar -O mods/nohostile.jar && \
-    wget https://cdn.modrinth.com/data/cnIatHrN/versions/qIZLODKH/universal_shops-1.7.0%2B1.21.jar -O mods/shops.jar && \
     wget https://cdn.modrinth.com/data/tOoh2eQm/versions/Z92SIDcE/petnames-1.21.0-3.3.jar -O mods/petnames.jar && \
     wget https://cdn.modrinth.com/data/j5niDupl/versions/K3NFTG3d/goml-1.13.0%2B1.21-rc1.jar -O mods/getoffmylawn.jar && \
     wget https://cdn.modrinth.com/data/IEPAK5x6/versions/2tO12wyr/htm-1.1.13.jar -O mods/heythatsmine.jar && \
-    wget https://cdn.modrinth.com/data/Vo4uFiz0/versions/NNY19c1k/saplanting-fabric-1.21-1.2.6.jar -O mods/sapplanting.jar && \
-    wget https://cdn.modrinth.com/data/l0tpiNe7/versions/4kJXWBwz/rain-grow-1.2.jar -O mods/raingowth.jar && \
-    wget https://cdn.modrinth.com/data/rbJ7eS5V/versions/I3kp6jxL/dcintegration-fabric-3.0.7.2-1.21.jar -O mods/discord.jar && \
-    wget https://cdn.modrinth.com/data/O6Sh7btX/versions/ahcjrWd5/grabbymobs-1.21.0-1.5.jar -O mods/grabby.jar && \
-    wget https://cdn.modrinth.com/data/qPzLkTsE/versions/bWVkhDef/Mambience-5.5.1%2B1.21.jar -O mods/mambiance.jar
+    wget https://cdn.modrinth.com/data/l0tpiNe7/versions/4kJXWBwz/rain-grow-1.2.jar -O mods/raingowth.jar
     
 # Download GeyserMC and Floodgate
 RUN wget https://cdn.modrinth.com/data/wKkoqHrH/versions/LMmIRweS/geyser-fabric-2.4.0-SNAPSHOT%2Bbuild.587.jar -O mods/Geyser.jar && \
