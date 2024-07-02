@@ -48,7 +48,8 @@ RUN mkdir mods && \
     wget https://cdn.modrinth.com/data/tOoh2eQm/versions/Z92SIDcE/petnames-1.21.0-3.3.jar -O mods/petnames.jar && \
     wget https://cdn.modrinth.com/data/j5niDupl/versions/K3NFTG3d/goml-1.13.0%2B1.21-rc1.jar -O mods/getoffmylawn.jar && \
     wget https://cdn.modrinth.com/data/IEPAK5x6/versions/2tO12wyr/htm-1.1.13.jar -O mods/heythatsmine.jar && \
-    wget https://cdn.modrinth.com/data/l0tpiNe7/versions/4kJXWBwz/rain-grow-1.2.jar -O mods/raingowth.jar
+    wget https://cdn.modrinth.com/data/l0tpiNe7/versions/4kJXWBwz/rain-grow-1.2.jar -O mods/raingowth.jar && \
+    wget https://cdn.modrinth.com/data/e0M1UDsY/versions/ZaTRzQs8/collective-1.21.0-7.70.jar mods/collective.jar
     
 # Download GeyserMC and Floodgate
 RUN wget https://cdn.modrinth.com/data/wKkoqHrH/versions/roQJJk43/geyser-fabric-2.4.0-SNAPSHOT%2Bbuild.588.jar -O mods/Geyser.jar && \
