@@ -52,8 +52,7 @@ RUN mkdir mods && \
     wget https://cdn.modrinth.com/data/e0M1UDsY/versions/ZaTRzQs8/collective-1.21.0-7.70.jar -O mods/collective.jar && \
     wget https://cdn.modrinth.com/data/n6PXGAoM/versions/2n9CpLEp/betterstats-3.11.3%2Bfabric-1.21.jar -O mods/bss.jar && \
     wget https://cdn.modrinth.com/data/Eldc1g37/versions/EbhWGkSn/tcdcommons-3.11.1%2Bfabric-1.21.jar -O mods/tcdc.jar && \
-    wget https://cdn.modrinth.com/data/gWO6Zqey/versions/cGJlnDAP/vanilla-refresh-1.4.20b.jar -O mods/vanillarefresh.jar && \
-    wget https://cdn.modrinth.com/data/gWO6Zqey/versions/5DrqTdW6/vanillarefresh-v1.4.20b_1.21.zip datapacks/vanillarefresh.zip
+    wget https://cdn.modrinth.com/data/gWO6Zqey/versions/cGJlnDAP/vanilla-refresh-1.4.20b.jar -O mods/vanillarefresh.jar
     
 # Download GeyserMC and Floodgate
 RUN wget https://cdn.modrinth.com/data/wKkoqHrH/versions/roQJJk43/geyser-fabric-2.4.0-SNAPSHOT%2Bbuild.588.jar -O mods/Geyser.jar && \
@@ -64,6 +63,7 @@ COPY server.properties ./
 COPY geyser-config.yml ./
 COPY floodgate-config.yml ./
 COPY start.sh ./
+COPY datapacks/ ./datapacks
 
 # Make the start script executable
 RUN chmod +x start.sh
