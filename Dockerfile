@@ -54,6 +54,7 @@ RUN mkdir mods && \
     wget https://cdn.modrinth.com/data/Eldc1g37/versions/EbhWGkSn/tcdcommons-3.11.1%2Bfabric-1.21.jar -O mods/tcdc.jar && \
     wget https://cdn.modrinth.com/data/gWO6Zqey/versions/cGJlnDAP/vanilla-refresh-1.4.20b.jar -O mods/vanillarefresh.jar
     
+    
 # Download GeyserMC and Floodgate
 RUN wget https://cdn.modrinth.com/data/wKkoqHrH/versions/roQJJk43/geyser-fabric-2.4.0-SNAPSHOT%2Bbuild.588.jar -O mods/Geyser.jar && \
     wget https://cdn.modrinth.com/data/bWrNNfkb/versions/D4KXqjtC/Floodgate-Fabric-2.2.3-SNAPSHOT%2Bbuild.28.jar -O mods/Floodgate.jar
@@ -63,7 +64,6 @@ COPY server.properties ./
 COPY geyser-config.yml ./
 COPY floodgate-config.yml ./
 COPY start.sh ./
-COPY datapacks/ ./datapacks
 
 # Make the start script executable
 RUN chmod +x start.sh
