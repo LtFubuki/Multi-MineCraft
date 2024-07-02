@@ -3,7 +3,7 @@ FROM arm64v8/openjdk:21-jdk-bullseye
 
 # Set environment variables
 ENV MINECRAFT_VERSION="1.21" \
-    GEYSER_VERSION="2.4.0-SNAPSHOT-587" \
+    GEYSER_VERSION="2.4.0-SNAPSHOT-588" \
     FLOODGATE_VERSION="2.2.3-SNAPSHOT-28"
 
 # Create and set the working directory
@@ -51,7 +51,7 @@ RUN mkdir mods && \
     wget https://cdn.modrinth.com/data/l0tpiNe7/versions/4kJXWBwz/rain-grow-1.2.jar -O mods/raingowth.jar
     
 # Download GeyserMC and Floodgate
-RUN wget https://cdn.modrinth.com/data/wKkoqHrH/versions/LMmIRweS/geyser-fabric-2.4.0-SNAPSHOT%2Bbuild.587.jar -O mods/Geyser.jar && \
+RUN wget https://cdn.modrinth.com/data/wKkoqHrH/versions/roQJJk43/geyser-fabric-2.4.0-SNAPSHOT%2Bbuild.588.jar -O mods/Geyser.jar && \
     wget https://cdn.modrinth.com/data/bWrNNfkb/versions/D4KXqjtC/Floodgate-Fabric-2.2.3-SNAPSHOT%2Bbuild.28.jar -O mods/Floodgate.jar
 
 # Copy configuration files and start script
