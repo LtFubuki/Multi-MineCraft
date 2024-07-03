@@ -52,7 +52,9 @@ RUN mkdir mods && \
     wget https://cdn.modrinth.com/data/e0M1UDsY/versions/ZaTRzQs8/collective-1.21.0-7.70.jar -O mods/collective.jar && \
     wget https://cdn.modrinth.com/data/n6PXGAoM/versions/2n9CpLEp/betterstats-3.11.3%2Bfabric-1.21.jar -O mods/bss.jar && \
     wget https://cdn.modrinth.com/data/Eldc1g37/versions/EbhWGkSn/tcdcommons-3.11.1%2Bfabric-1.21.jar -O mods/tcdc.jar && \
-    wget https://cdn.modrinth.com/data/gWO6Zqey/versions/cGJlnDAP/vanilla-refresh-1.4.20b.jar -O mods/vanillarefresh.jar
+    wget https://cdn.modrinth.com/data/gWO6Zqey/versions/cGJlnDAP/vanilla-refresh-1.4.20b.jar -O mods/vanillarefresh.jar && \
+    wget https://cdn.modrinth.com/data/P1OZGk5p/versions/fojFzCyd/ViaVersion-5.0.2-SNAPSHOT.jar -O mods/viaversion.jar && \
+    wget https://cdn.modrinth.com/data/NpvuJQoq/versions/HP0St2QS/ViaBackwards-5.0.2-SNAPSHOT.jar -O mods/viabackwards.jar
     
     
 # Download GeyserMC and Floodgate
