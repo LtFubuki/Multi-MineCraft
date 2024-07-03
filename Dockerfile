@@ -56,6 +56,10 @@ RUN mkdir mods && \
     wget https://cdn.modrinth.com/data/P1OZGk5p/versions/fojFzCyd/ViaVersion-5.0.2-SNAPSHOT.jar -O mods/viaversion.jar && \
     wget https://cdn.modrinth.com/data/NpvuJQoq/versions/HP0St2QS/ViaBackwards-5.0.2-SNAPSHOT.jar -O mods/viabackwards.jar && \
     wget https://cdn.modrinth.com/data/YlKdE5VK/versions/Tw6VYjjI/ViaFabric-0.4.14%2B74-main.jar -O mods/viafabric.jar
+
+# Download DataPacks
+RUN mkdir datapacks && \
+    wget https://cdn.modrinth.com/data/gWO6Zqey/versions/5DrqTdW6/vanillarefresh-v1.4.20b_1.21.zip -O datapacks/vanillarefresh.zip
     
     
 # Download GeyserMC and Floodgate
