@@ -28,9 +28,7 @@ RUN mkdir mods && \
     wget https://mediafilez.forgecdn.net/files/5487/238/loadmychunks-1.0.5-hf2%2B1.21%2Bfabric.jar -O mods/loadmychunks.jar && \
     wget https://mediafilez.forgecdn.net/files/5430/24/Clumps-fabric-1.21-18.0.0.1.jar -O mods/clumps.jar && \
     wget https://mediafilez.forgecdn.net/files/5434/152/spark-1.10.73-fabric.jar -O mods/spark.jar && \
-    wget https://mediafilez.forgecdn.net/files/5460/550/krypton-0.2.8.jar -O mods/krypton.jar && \
     wget https://mediafilez.forgecdn.net/files/5496/418/Neruina-2.1.0-fabric%2B1.21.jar -O mods/neruna.jar && \
-    wget https://mediafilez.forgecdn.net/files/5424/659/packetfixer-fabric-1.4.1-1.21-to-1.21.jar -O mods/packetfixer.jar && \
     wget https://mediafilez.forgecdn.net/files/5432/203/servercore-fabric-1.5.3%2B1.21.jar -O mods/servercore.jar && \
     wget https://mediafilez.forgecdn.net/files/5435/263/graves-3.4.1%2B1.21.jar -O mods/graves.jar && \
     wget https://mediafilez.forgecdn.net/files/5500/755/waystones-fabric-1.21-21.0.7.jar -O mods/waystones.jar && \
