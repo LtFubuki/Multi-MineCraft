@@ -16,9 +16,10 @@ RUN wget https://meta.fabricmc.net/v2/versions/loader/1.21/0.15.11/1.0.1/server/
 
 #download Mods
 RUN mkdir mods && \
-    wget https://mediafilez.forgecdn.net/files/5425/57/ImmediatelyFast-Fabric-1.2.18%2B1.21.jar -O mods/imediatefast.jar && \
-    wget https://mediafilez.forgecdn.net/files/5426/96/letmedespawn-1.3.0.jar -O mods/letmedespawn.jar && \
-    wget https://cdn.modrinth.com/data/abooMhox/versions/astoQXO2/treeharvester-1.21.0-8.9.jar -O mods/fallingtree.jar
+    wget https://cdn.modrinth.com/data/8oi3bsk5/versions/5k90Bexh/Terralith_1.21_v2.5.3.jar -O mods/terralith.jar && \
+    wget https://cdn.modrinth.com/data/lWDHr9jE/versions/NypAubyx/tectonic-fabric-1.21-2.4.0.jar -O mods/tectonic.jar && \
+    wget https://mediafilez.forgecdn.net/files/5465/222/mcw-bridges-3.0.0-mc1.21fabric.jar -O mods/macawbridges.jar && \
+    wget https://mediafilez.forgecdn.net/files/5493/289/Jade-1.21-Fabric-15.1.3.jar -O mods/jade.jar
     
 # Download GeyserMC and Floodgate / core mods
 RUN wget https://cdn.modrinth.com/data/P7dR8mSH/versions/oIVA3FbL/fabric-api-0.100.4%2B1.21.jar -O mods/fabric_api.jar && \
@@ -39,6 +40,9 @@ RUN wget https://cdn.modrinth.com/data/P7dR8mSH/versions/oIVA3FbL/fabric-api-0.1
     wget https://mediafilez.forgecdn.net/files/5490/619/architectury-13.0.3-fabric.jar -O mods/architechuary.jar && \
     wget https://mediafilez.forgecdn.net/files/5485/123/pandalib-fabric-0.3-1.21.jar -O mods/pandalib.jar && \
     wget https://mediafilez.forgecdn.net/files/5429/866/TerraBlender-fabric-1.21-4.0.0.1.jar -O mods/terrablender.jar && \
+    wget https://mediafilez.forgecdn.net/files/5425/57/ImmediatelyFast-Fabric-1.2.18%2B1.21.jar -O mods/imediatefast.jar && \
+    wget https://mediafilez.forgecdn.net/files/5426/96/letmedespawn-1.3.0.jar -O mods/letmedespawn.jar && \
+    wget https://cdn.modrinth.com/data/abooMhox/versions/astoQXO2/treeharvester-1.21.0-8.9.jar -O mods/fallingtree.jar && \
     wget https://mediafilez.forgecdn.net/files/5479/621/ViaFabric-0.4.14%2B74-main.jar -O mods/viafabric.jar
 
 # Copy configuration files and start script
