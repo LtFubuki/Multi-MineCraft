@@ -18,9 +18,6 @@ RUN wget https://meta.fabricmc.net/v2/versions/loader/1.21/0.15.11/1.0.1/server/
 RUN mkdir mods && \
     wget https://cdn.modrinth.com/data/P7dR8mSH/versions/oIVA3FbL/fabric-api-0.100.4%2B1.21.jar -O mods/fabric_api.jar && \
     wget https://mediafilez.forgecdn.net/files/5435/263/graves-3.4.1%2B1.21.jar -O mods/graves.jar && \
-    wget https://mediafilez.forgecdn.net/files/5500/755/waystones-fabric-1.21-21.0.7.jar -O mods/waystones.jar && \
-    wget https://mediafilez.forgecdn.net/files/5489/688/BiomesOPlenty-fabric-1.21-21.0.0.11.jar -O mods/biomesoplenty.jar && \
-    wget https://mediafilez.forgecdn.net/files/5489/65/fallingtrees-fabric-0.12.3-1.21.jar -O mods/fallingtree.jar && \
     wget https://mediafilez.forgecdn.net/files/5439/797/htm-1.1.13.jar -O mods/htm.jar && \
     wget https://cdn.modrinth.com/data/j5niDupl/versions/K3NFTG3d/goml-1.13.0%2B1.21-rc1.jar -O mods/getoffmylawn.jar && \
     wget https://mediafilez.forgecdn.net/files/5485/36/balm-fabric-1.21-21.0.11.jar -O mods/balm.jar && \
