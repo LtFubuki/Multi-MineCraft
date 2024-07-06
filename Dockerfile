@@ -23,39 +23,18 @@ RUN mkdir mods && \
     wget https://mediafilez.forgecdn.net/files/5499/595/modernfix-fabric-5.18.5%2Bmc1.21.jar -O mods/modernfix.jar && \
     wget https://mediafilez.forgecdn.net/files/5485/657/sodium-fabric-0.5.11%2Bmc1.21.jar -O mods/sodium.jar && \
     wget https://mediafilez.forgecdn.net/files/5448/487/lithium-fabric-mc1.21-0.12.7.jar -O mods/lithium.jar && \
-    wget https://mediafilez.forgecdn.net/files/5434/182/ferritecore-7.0.0-fabric.jar -O mods/ferritecore.jar && \
-    wget https://mediafilez.forgecdn.net/files/5425/57/ImmediatelyFast-Fabric-1.2.18%2B1.21.jar -O mods/imediatefast.jar && \
-    wget https://mediafilez.forgecdn.net/files/5426/96/letmedespawn-1.3.0.jar -O mods/letmedespawn.jar && \
-    wget https://mediafilez.forgecdn.net/files/5500/755/waystones-fabric-1.21-21.0.7.jar -O mods/waystones.jar && \
-    wget https://cdn.modrinth.com/data/abooMhox/versions/astoQXO2/treeharvester-1.21.0-8.9.jar -O mods/fallingtree.jar && \
-    wget https://cdn.modrinth.com/data/8oi3bsk5/versions/5k90Bexh/Terralith_1.21_v2.5.3.jar -O mods/terralith.jar && \
-    wget https://cdn.modrinth.com/data/lWDHr9jE/versions/NypAubyx/tectonic-fabric-1.21-2.4.0.jar -O mods/tectonic.jar && \
-    wget https://mediafilez.forgecdn.net/files/5465/222/mcw-bridges-3.0.0-mc1.21fabric.jar -O mods/macawbridges.jar && \
-    wget https://mediafilez.forgecdn.net/files/5493/289/Jade-1.21-Fabric-15.1.3.jar -O mods/jade.jar && \
-    wget https://cdn.modrinth.com/data/e0M1UDsY/versions/ZaTRzQs8/collective-1.21.0-7.70.jar -O mods/collective.jar && \
-    wget https://mediafilez.forgecdn.net/files/5429/912/SereneSeasons-fabric-1.21-10.0.0.2.jar -O mods/seasons.jar && \
-    wget https://mediafilez.forgecdn.net/files/5448/651/particle_core-0.2.3%2B1.21.jar -O mods/particlecore.jar && \
-    wget https://mediafilez.forgecdn.net/files/5340/851/serverpingerfixer-1.0.5.jar -O mods/serverpinger.jar && \
-    wget https://mediafilez.forgecdn.net/files/5487/238/loadmychunks-1.0.5-hf2%2B1.21%2Bfabric.jar -O mods/loadmychunks.jar && \
-    wget https://mediafilez.forgecdn.net/files/5434/152/spark-1.10.73-fabric.jar -O mods/spark.jar && \
-    wget https://mediafilez.forgecdn.net/files/5460/550/krypton-0.2.8.jar -O mods/krypton.jar && \
-    wget https://mediafilez.forgecdn.net/files/5496/418/Neruina-2.1.0-fabric%2B1.21.jar -O mods/neruna.jar && \
-    wget https://mediafilez.forgecdn.net/files/5424/659/packetfixer-fabric-1.4.1-1.21-to-1.21.jar -O mods/packetfixer.jar && \
-    wget https://mediafilez.forgecdn.net/files/5432/203/servercore-fabric-1.5.3%2B1.21.jar -O mods/servercore.jar && \
-    wget https://mediafilez.forgecdn.net/files/5430/24/Clumps-fabric-1.21-18.0.0.1.jar -O mods/clumps.jar && \
-    wget https://mediafilez.forgecdn.net/files/5485/36/balm-fabric-1.21-21.0.11.jar -O mods/balm.jar && \
-    wget https://mediafilez.forgecdn.net/files/5483/774/GlitchCore-fabric-1.21-2.0.0.2.jar -O mods/glitchcore.jar && \
-    wget https://mediafilez.forgecdn.net/files/5490/619/architectury-13.0.3-fabric.jar -O mods/architechuary.jar && \
-    wget https://mediafilez.forgecdn.net/files/5485/123/pandalib-fabric-0.3-1.21.jar -O mods/pandalib.jar && \
-    wget https://cdn.modrinth.com/data/TWsbC6jW/versions/2lPBBaF4/AdditionalStructures-1.21-%28v.5.0.0-fabric%29.jar -O mods/addstrucs.jar && \
-    wget https://mediafilez.forgecdn.net/files/5481/991/resourcefulconfig-fabric-1.21-3.0.2.jar -O mods/resourcefulconfig.jar && \
-    wget https://mediafilez.forgecdn.net/files/5429/866/TerraBlender-fabric-1.21-4.0.0.1.jar -O mods/terrablender.jar
+    wget https://mediafilez.forgecdn.net/files/5434/182/ferritecore-7.0.0-fabric.jar -O mods/ferritecore.jar
     
 # Download GeyserMC and Floodgate / core mods
 RUN wget https://cdn.modrinth.com/data/wKkoqHrH/versions/roQJJk43/geyser-fabric-2.4.0-SNAPSHOT%2Bbuild.588.jar -O mods/Geyser.jar && \
     wget https://cdn.modrinth.com/data/bWrNNfkb/versions/D4KXqjtC/Floodgate-Fabric-2.2.3-SNAPSHOT%2Bbuild.28.jar -O mods/Floodgate.jar && \
     wget https://cdn.modrinth.com/data/P1OZGk5p/versions/fojFzCyd/ViaVersion-5.0.2-SNAPSHOT.jar -O mods/viaversion.jar && \
     wget https://cdn.modrinth.com/data/NpvuJQoq/versions/HP0St2QS/ViaBackwards-5.0.2-SNAPSHOT.jar -O mods/viabackwards.jar && \
+    wget https://mediafilez.forgecdn.net/files/5485/36/balm-fabric-1.21-21.0.11.jar -O mods/balm.jar && \
+    wget https://mediafilez.forgecdn.net/files/5483/774/GlitchCore-fabric-1.21-2.0.0.2.jar -O mods/glitchcore.jar && \
+    wget https://mediafilez.forgecdn.net/files/5490/619/architectury-13.0.3-fabric.jar -O mods/architechuary.jar && \
+    wget https://mediafilez.forgecdn.net/files/5485/123/pandalib-fabric-0.3-1.21.jar -O mods/pandalib.jar && \
+    wget https://mediafilez.forgecdn.net/files/5429/866/TerraBlender-fabric-1.21-4.0.0.1.jar -O mods/terrablender.jar && \
     wget https://mediafilez.forgecdn.net/files/5479/621/ViaFabric-0.4.14%2B74-main.jar -O mods/viafabric.jar
 
 # Copy configuration files and start script
