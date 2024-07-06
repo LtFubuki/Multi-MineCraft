@@ -25,7 +25,7 @@ RUN mkdir mods && \
     wget https://mediafilez.forgecdn.net/files/5429/912/SereneSeasons-fabric-1.21-10.0.0.2.jar -O mods/seasons.jar && \
     wget https://mediafilez.forgecdn.net/files/5489/65/fallingtrees-fabric-0.12.3-1.21.jar -O mods/fallingtree.jar && \
     wget https://mediafilez.forgecdn.net/files/5439/797/htm-1.1.13.jar -O mods/htm.jar && \
-    wget https://cdn.modrinth.com/data/j5niDupl/versions/K3NFTG3d/goml-1.13.0%2B1.21-rc1.jar -O mods/getoffmylawn.jar && \
+    wget https://cdn.modrinth.com/data/j5niDupl/versions/K3NFTG3d/goml-1.13.0%2B1.21-rc1.jar -O mods/getoffmylawn.jar
     
 # Download GeyserMC and Floodgate / core mods
 RUN wget https://cdn.modrinth.com/data/wKkoqHrH/versions/roQJJk43/geyser-fabric-2.4.0-SNAPSHOT%2Bbuild.588.jar -O mods/Geyser.jar && \
