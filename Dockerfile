@@ -32,6 +32,7 @@ RUN mkdir mods && \
     wget https://cdn.modrinth.com/data/lWDHr9jE/versions/NypAubyx/tectonic-fabric-1.21-2.4.0.jar -O mods/tectonic.jar && \
     wget https://mediafilez.forgecdn.net/files/5465/222/mcw-bridges-3.0.0-mc1.21fabric.jar -O mods/macawbridges.jar && \
     wget https://mediafilez.forgecdn.net/files/5493/289/Jade-1.21-Fabric-15.1.3.jar -O mods/jade.jar && \
+    wget https://cdn.modrinth.com/data/e0M1UDsY/versions/ZaTRzQs8/collective-1.21.0-7.70.jar -O mods/collective.jar && \
     wget https://mediafilez.forgecdn.net/files/5429/912/SereneSeasons-fabric-1.21-10.0.0.2.jar -O mods/seasons.jar && \
     wget https://mediafilez.forgecdn.net/files/5448/651/particle_core-0.2.3%2B1.21.jar -O mods/particlecore.jar && \
     wget https://mediafilez.forgecdn.net/files/5340/851/serverpingerfixer-1.0.5.jar -O mods/serverpinger.jar && \
