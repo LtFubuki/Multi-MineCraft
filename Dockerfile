@@ -18,7 +18,6 @@ RUN wget https://meta.fabricmc.net/v2/versions/loader/1.21/0.15.11/1.0.1/server/
 RUN mkdir mods && \
     wget https://mediafilez.forgecdn.net/files/5425/57/ImmediatelyFast-Fabric-1.2.18%2B1.21.jar -O mods/imediatefast.jar && \
     wget https://mediafilez.forgecdn.net/files/5426/96/letmedespawn-1.3.0.jar -O mods/letmedespawn.jar && \
-    wget https://mediafilez.forgecdn.net/files/5500/755/waystones-fabric-1.21-21.0.7.jar -O mods/waystones.jar && \
     wget https://cdn.modrinth.com/data/abooMhox/versions/astoQXO2/treeharvester-1.21.0-8.9.jar -O mods/fallingtree.jar
     
 # Download GeyserMC and Floodgate / core mods
