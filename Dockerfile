@@ -17,7 +17,7 @@ RUN wget https://meta.fabricmc.net/v2/versions/loader/1.21/0.15.11/1.0.1/server/
 #download Mods
 RUN mkdir mods && \
     wget https://cdn.modrinth.com/data/P7dR8mSH/versions/oIVA3FbL/fabric-api-0.100.4%2B1.21.jar -O mods/fabric_api.jar && \
-    wget https://mediafilez.forgecdn.net/files/5503/431/jei-1.21-fabric-19.1.1.19.jar -O mods/jei.jar
+    wget https://mediafilez.forgecdn.net/files/5502/211/journeymap-fabric-1.21-6.0.0-beta.14.jar -O mods/journeymap.jar
     
 # Download GeyserMC and Floodgate / core mods
 RUN wget https://cdn.modrinth.com/data/wKkoqHrH/versions/roQJJk43/geyser-fabric-2.4.0-SNAPSHOT%2Bbuild.588.jar -O mods/Geyser.jar && \
@@ -36,7 +36,7 @@ COPY start.sh ./
 RUN chmod +x start.sh
 
 # Expose server ports
-EXPOSE 25565 8123 19132/udp
+EXPOSE 25565 8080 19132/udp
 
 # Start the server using the start.sh script
 CMD ["./start.sh"]
