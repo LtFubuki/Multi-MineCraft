@@ -24,7 +24,6 @@ RUN mkdir mods && \
     wget https://mediafilez.forgecdn.net/files/5425/57/ImmediatelyFast-Fabric-1.2.18%2B1.21.jar -O mods/imediatefast.jar && \
     wget https://mediafilez.forgecdn.net/files/5426/96/letmedespawn-1.3.0.jar -O mods/letmedespawn.jar && \
     wget https://mediafilez.forgecdn.net/files/5448/651/particle_core-0.2.3%2B1.21.jar -O mods/particlecore.jar && \
-    wget https://mediafilez.forgecdn.net/files/5340/851/serverpingerfixer-1.0.5.jar -O mods/serverpinger.jar && \
     wget https://mediafilez.forgecdn.net/files/5487/238/loadmychunks-1.0.5-hf2%2B1.21%2Bfabric.jar -O mods/loadmychunks.jar && \
     wget https://mediafilez.forgecdn.net/files/5430/24/Clumps-fabric-1.21-18.0.0.1.jar -O mods/clumps.jar && \
     wget https://mediafilez.forgecdn.net/files/5434/152/spark-1.10.73-fabric.jar -O mods/spark.jar && \
