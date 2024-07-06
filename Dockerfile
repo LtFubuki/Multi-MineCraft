@@ -17,7 +17,7 @@ RUN wget https://meta.fabricmc.net/v2/versions/loader/1.21/0.15.11/1.0.1/server/
 #download Mods
 RUN mkdir mods && \
     wget https://cdn.modrinth.com/data/P7dR8mSH/versions/oIVA3FbL/fabric-api-0.100.4%2B1.21.jar -O mods/fabric_api.jar && \
-    wget wget https://mediafilez.forgecdn.net/files/5500/955/voicechat-fabric-1.21-2.5.18.jar -O mods/voicechat.jar
+    wget https://mediafilez.forgecdn.net/files/5500/955/voicechat-fabric-1.21-2.5.18.jar -O mods/voicechat.jar
     
 # Download GeyserMC and Floodgate / core mods
 RUN wget https://cdn.modrinth.com/data/wKkoqHrH/versions/roQJJk43/geyser-fabric-2.4.0-SNAPSHOT%2Bbuild.588.jar -O mods/Geyser.jar && \
