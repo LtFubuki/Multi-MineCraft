@@ -16,7 +16,13 @@ RUN wget https://meta.fabricmc.net/v2/versions/loader/1.21/0.15.11/1.0.1/server/
 
 #download Mods
 RUN mkdir mods && \
-    wget https://cdn.modrinth.com/data/P7dR8mSH/versions/oIVA3FbL/fabric-api-0.100.4%2B1.21.jar -O mods/fabric_api.jar && \
+    wget https://mediafilez.forgecdn.net/files/5425/57/ImmediatelyFast-Fabric-1.2.18%2B1.21.jar -O mods/imediatefast.jar && \
+    wget https://mediafilez.forgecdn.net/files/5426/96/letmedespawn-1.3.0.jar -O mods/letmedespawn.jar && \
+    wget https://mediafilez.forgecdn.net/files/5500/755/waystones-fabric-1.21-21.0.7.jar -O mods/waystones.jar && \
+    wget https://cdn.modrinth.com/data/abooMhox/versions/astoQXO2/treeharvester-1.21.0-8.9.jar -O mods/fallingtree.jar
+    
+# Download GeyserMC and Floodgate / core mods
+RUN wget https://cdn.modrinth.com/data/P7dR8mSH/versions/oIVA3FbL/fabric-api-0.100.4%2B1.21.jar -O mods/fabric_api.jar && \
     wget https://mediafilez.forgecdn.net/files/5435/263/graves-3.4.1%2B1.21.jar -O mods/graves.jar && \
     wget https://mediafilez.forgecdn.net/files/5439/797/htm-1.1.13.jar -O mods/htm.jar && \
     wget https://cdn.modrinth.com/data/j5niDupl/versions/K3NFTG3d/goml-1.13.0%2B1.21-rc1.jar -O mods/getoffmylawn.jar && \
@@ -24,13 +30,7 @@ RUN mkdir mods && \
     wget https://mediafilez.forgecdn.net/files/5485/657/sodium-fabric-0.5.11%2Bmc1.21.jar -O mods/sodium.jar && \
     wget https://mediafilez.forgecdn.net/files/5448/487/lithium-fabric-mc1.21-0.12.7.jar -O mods/lithium.jar && \
     wget https://mediafilez.forgecdn.net/files/5434/182/ferritecore-7.0.0-fabric.jar -O mods/ferritecore.jar && \
-    wget https://mediafilez.forgecdn.net/files/5425/57/ImmediatelyFast-Fabric-1.2.18%2B1.21.jar -O mods/imediatefast.jar && \
-    wget https://mediafilez.forgecdn.net/files/5426/96/letmedespawn-1.3.0.jar -O mods/letmedespawn.jar && \
-    wget https://mediafilez.forgecdn.net/files/5500/755/waystones-fabric-1.21-21.0.7.jar -O mods/waystones.jar && \
-    wget https://cdn.modrinth.com/data/abooMhox/versions/astoQXO2/treeharvester-1.21.0-8.9.jar -O mods/fallingtree.jar
-    
-# Download GeyserMC and Floodgate / core mods
-RUN wget https://cdn.modrinth.com/data/wKkoqHrH/versions/roQJJk43/geyser-fabric-2.4.0-SNAPSHOT%2Bbuild.588.jar -O mods/Geyser.jar && \
+    wget https://cdn.modrinth.com/data/wKkoqHrH/versions/roQJJk43/geyser-fabric-2.4.0-SNAPSHOT%2Bbuild.588.jar -O mods/Geyser.jar && \
     wget https://cdn.modrinth.com/data/bWrNNfkb/versions/D4KXqjtC/Floodgate-Fabric-2.2.3-SNAPSHOT%2Bbuild.28.jar -O mods/Floodgate.jar && \
     wget https://cdn.modrinth.com/data/P1OZGk5p/versions/fojFzCyd/ViaVersion-5.0.2-SNAPSHOT.jar -O mods/viaversion.jar && \
     wget https://cdn.modrinth.com/data/NpvuJQoq/versions/HP0St2QS/ViaBackwards-5.0.2-SNAPSHOT.jar -O mods/viabackwards.jar && \
