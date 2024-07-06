@@ -23,7 +23,8 @@ RUN wget https://cdn.modrinth.com/data/wKkoqHrH/versions/roQJJk43/geyser-fabric-
     wget https://cdn.modrinth.com/data/bWrNNfkb/versions/D4KXqjtC/Floodgate-Fabric-2.2.3-SNAPSHOT%2Bbuild.28.jar -O mods/Floodgate.jar && \
     wget https://cdn.modrinth.com/data/P1OZGk5p/versions/fojFzCyd/ViaVersion-5.0.2-SNAPSHOT.jar -O mods/viaversion.jar && \
     wget https://cdn.modrinth.com/data/NpvuJQoq/versions/HP0St2QS/ViaBackwards-5.0.2-SNAPSHOT.jar -O mods/viabackwards.jar && \
-    wget https://cdn.modrinth.com/data/YlKdE5VK/versions/Tw6VYjjI/ViaFabric-0.4.14%2B74-main.jar -O mods/viafabric.jar
+    wget https://cdn.modrinth.com/data/YlKdE5VK/versions/Tw6VYjjI/ViaFabric-0.4.14%2B74-main.jar -O mods/viafabric.jar && \
+    wget https://mediafilez.forgecdn.net/files/5503/431/jei-1.21-fabric-19.1.1.19.jar mods/jei.jar
 
 # Copy configuration files and start script
 COPY server.properties ./
