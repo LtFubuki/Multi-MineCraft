@@ -21,12 +21,6 @@ RUN mkdir mods && \
     wget https://mediafilez.forgecdn.net/files/5485/657/sodium-fabric-0.5.11%2Bmc1.21.jar -O mods/sodium.jar && \
     wget https://mediafilez.forgecdn.net/files/5448/487/lithium-fabric-mc1.21-0.12.7.jar -O mods/lithium.jar && \
     wget https://mediafilez.forgecdn.net/files/5434/182/ferritecore-7.0.0-fabric.jar -O mods/ferritecore.jar && \
-    wget https://mediafilez.forgecdn.net/files/5425/57/ImmediatelyFast-Fabric-1.2.18%2B1.21.jar -O mods/imediatefast.jar && \
-    wget https://mediafilez.forgecdn.net/files/5426/96/letmedespawn-1.3.0.jar -O mods/letmedespawn.jar && \
-    wget https://mediafilez.forgecdn.net/files/5448/651/particle_core-0.2.3%2B1.21.jar -O mods/particlecore.jar && \
-    wget https://mediafilez.forgecdn.net/files/5487/238/loadmychunks-1.0.5-hf2%2B1.21%2Bfabric.jar -O mods/loadmychunks.jar && \
-    wget https://mediafilez.forgecdn.net/files/5430/24/Clumps-fabric-1.21-18.0.0.1.jar -O mods/clumps.jar && \
-    wget https://mediafilez.forgecdn.net/files/5496/418/Neruina-2.1.0-fabric%2B1.21.jar -O mods/neruna.jar && \
     wget https://mediafilez.forgecdn.net/files/5432/203/servercore-fabric-1.5.3%2B1.21.jar -O mods/servercore.jar && \
     wget https://mediafilez.forgecdn.net/files/5435/263/graves-3.4.1%2B1.21.jar -O mods/graves.jar && \
     wget https://mediafilez.forgecdn.net/files/5500/755/waystones-fabric-1.21-21.0.7.jar -O mods/waystones.jar && \
