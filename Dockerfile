@@ -46,6 +46,7 @@ RUN mkdir mods && \
     wget https://mediafilez.forgecdn.net/files/5483/774/GlitchCore-fabric-1.21-2.0.0.2.jar -O mods/glitchcore.jar && \
     wget https://mediafilez.forgecdn.net/files/5490/619/architectury-13.0.3-fabric.jar -O mods/architechuary.jar && \
     wget https://mediafilez.forgecdn.net/files/5485/123/pandalib-fabric-0.3-1.21.jar -O mods/pandalib.jar && \
+    wget https://cdn.modrinth.com/data/TWsbC6jW/versions/2lPBBaF4/AdditionalStructures-1.21-%28v.5.0.0-fabric%29.jar -O mods/addstrucs.jar && \
     wget https://mediafilez.forgecdn.net/files/5481/991/resourcefulconfig-fabric-1.21-3.0.2.jar -O mods/resourcefulconfig.jar && \
     wget https://mediafilez.forgecdn.net/files/5429/866/TerraBlender-fabric-1.21-4.0.0.1.jar -O mods/terrablender.jar
     
