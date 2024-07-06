@@ -47,7 +47,8 @@ RUN mkdir mods && \
     wget https://mediafilez.forgecdn.net/files/5490/619/architectury-13.0.3-fabric.jar -O mods/architechuary.jar && \
     wget https://mediafilez.forgecdn.net/files/5485/123/pandalib-fabric-0.3-1.21.jar -O mods/pandalib.jar && \
     wget https://mediafilez.forgecdn.net/files/5481/991/resourcefulconfig-fabric-1.21-3.0.2.jar -O mods/resourcefulconfig.jar && \
-    wget https://mediafilez.forgecdn.net/files/5429/866/TerraBlender-fabric-1.21-4.0.0.1.jar -O mods/terrablender.jar
+    wget https://mediafilez.forgecdn.net/files/5429/866/TerraBlender-fabric-1.21-4.0.0.1.jar -O mods/terrablender.jar && \
+    wget https://mediafilez.forgecdn.net/files/5460/139/geckolib-fabric-1.21-4.5.6.jar -O mods/geckolib.jar
     
 # Download GeyserMC and Floodgate / core mods
 RUN wget https://cdn.modrinth.com/data/wKkoqHrH/versions/roQJJk43/geyser-fabric-2.4.0-SNAPSHOT%2Bbuild.588.jar -O mods/Geyser.jar && \
