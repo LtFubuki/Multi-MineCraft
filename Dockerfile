@@ -17,7 +17,11 @@ RUN wget https://meta.fabricmc.net/v2/versions/loader/1.21/0.15.11/1.0.1/server/
 #download Mods
 RUN mkdir mods && \
     wget https://cdn.modrinth.com/data/gWO6Zqey/versions/cGJlnDAP/vanilla-refresh-1.4.20b.jar -O mods/vanillarefresh.jar && \
-    wget https://cdn.modrinth.com/data/tpehi7ww/versions/k5UAHKdy/dungeons-and-taverns-v4.1.jar -O mods/dung.jar
+    wget https://cdn.modrinth.com/data/tpehi7ww/versions/k5UAHKdy/dungeons-and-taverns-v4.1.jar -O mods/dung.jar && \
+    wget https://cdn.modrinth.com/data/xGdtZczs/versions/Bbj5Ts5L/polymer-bundled-0.9.4%2B1.21.jar -O mods/polymer.jar && \
+    wget https://cdn.modrinth.com/data/iWkVbeKr/versions/AhWjCf1A/glideaway-1.2.1%2B1.21.jar -O mods/glider.jar && \
+    wget https://cdn.modrinth.com/data/MikpSrAF/versions/6Ta3P3ds/polyfactory-0.4.0-pre.5%2B1.21.jar -O mods/polyfactory.jar && \
+    wget https://cdn.modrinth.com/data/m5NB7FJE/versions/aeb2airJ/polydex-1.2.2%2B1.21.jar -O mods/polydex.jar
     
 # Download GeyserMC and Floodgate / core mods
 RUN wget https://cdn.modrinth.com/data/P7dR8mSH/versions/oIVA3FbL/fabric-api-0.100.4%2B1.21.jar -O mods/fabric_api.jar && \
