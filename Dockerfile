@@ -3,8 +3,8 @@ FROM arm64v8/openjdk:21-jdk-bullseye
 
 # Set environment variables
 ENV MINECRAFT_VERSION="1.21.3" \
-    GEYSER_VERSION="2.4.0-SNAPSHOT-588" \
-    FLOODGATE_VERSION="2.2.3-SNAPSHOT-28"
+    GEYSER_VERSION="2.5.0-SNAPSHOT-588" \
+    FLOODGATE_VERSION="2.2.4-SNAPSHOT-28"
 
 # Create and set the working directory
 RUN mkdir -p /minecraft
@@ -35,8 +35,8 @@ RUN wget https://cdn.modrinth.com/data/P7dR8mSH/versions/oIVA3FbL/fabric-api-0.1
     wget https://mediafilez.forgecdn.net/files/5485/657/sodium-fabric-0.5.11%2Bmc1.21.jar -O mods/sodium.jar && \
     wget https://mediafilez.forgecdn.net/files/5448/487/lithium-fabric-mc1.21-0.12.7.jar -O mods/lithium.jar && \
     wget https://mediafilez.forgecdn.net/files/5434/182/ferritecore-7.0.0-fabric.jar -O mods/ferritecore.jar && \
-    wget https://cdn.modrinth.com/data/wKkoqHrH/versions/roQJJk43/geyser-fabric-2.4.0-SNAPSHOT%2Bbuild.588.jar -O mods/Geyser.jar && \
-    wget https://cdn.modrinth.com/data/bWrNNfkb/versions/D4KXqjtC/Floodgate-Fabric-2.2.3-SNAPSHOT%2Bbuild.28.jar -O mods/Floodgate.jar && \
+    wget https://cdn.modrinth.com/data/wKkoqHrH/versions/9I48F8gS/geyser-fabric-Geyser-Fabric-2.5.0-b721.jar -O mods/Geyser.jar && \
+    wget https://cdn.modrinth.com/data/bWrNNfkb/versions/fi1OaueM/Floodgate-Fabric-2.2.4-b39.jar -O mods/Floodgate.jar && \
     wget https://cdn.modrinth.com/data/P1OZGk5p/versions/fojFzCyd/ViaVersion-5.0.2-SNAPSHOT.jar -O mods/viaversion.jar && \
     wget https://cdn.modrinth.com/data/NpvuJQoq/versions/HP0St2QS/ViaBackwards-5.0.2-SNAPSHOT.jar -O mods/viabackwards.jar && \
     wget https://mediafilez.forgecdn.net/files/5485/36/balm-fabric-1.21-21.0.11.jar -O mods/balm.jar && \
