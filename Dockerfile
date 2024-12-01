@@ -15,7 +15,7 @@ RUN wget https://meta.fabricmc.net/v2/versions/loader/1.21.3/0.16.9/1.0.1/server
     echo "eula=true" > eula.txt
 
 #download Mods
-RUN mkdir mods && \
+RUN mkdir mods
     
     
 # Download GeyserMC and Floodgate / core mods
