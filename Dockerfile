@@ -3,7 +3,7 @@ FROM arm64v8/openjdk:21-jdk-bullseye
 
 # Set environment variables
 ENV MINECRAFT_VERSION="1.21.4" \
-    GEYSER_VERSION="2.5.0-SNAPSHOT-588" \
+    GEYSER_VERSION="2.6.0-SNAPSHOT-588" \
     FLOODGATE_VERSION="2.2.4-SNAPSHOT-28"
 
 # Create and set the working directory
