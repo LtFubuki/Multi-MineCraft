@@ -24,7 +24,6 @@ RUN wget https://cdn.modrinth.com/data/P7dR8mSH/versions/15ijyoD6/fabric-api-0.1
     wget https://cdn.modrinth.com/data/bWrNNfkb/versions/jb3lzved/Floodgate-Fabric-2.2.4-b42.jar -O mods/Floodgate.jar && \
     wget https://cdn.modrinth.com/data/P1OZGk5p/versions/FB1AZx0z/ViaVersion-5.2.1-SNAPSHOT.jar -O mods/viaversion.jar && \
     wget https://cdn.modrinth.com/data/NpvuJQoq/versions/cQfwR8Kg/ViaBackwards-5.2.1-SNAPSHOT.jar -O mods/viabackwards.jar && \
-    wget https://cdn.modrinth.com/data/YlKdE5VK/versions/UGHhXjIX/ViaFabric-0.4.17%2B93-main.jar -O mods/viafabric.jar && \
     wget https://cdn.modrinth.com/data/rIC2XJV4/versions/Hz3FyxRn/ViaFabricPlus-4.0.3.jar -O mods/viafabricplus.jar && \
     wget https://cdn.modrinth.com/data/cl223EMc/versions/Z4HqO4Am/cristellib-fabric-1.2.10.jar -O mods/cristallib.jar && \
     wget https://cdn.modrinth.com/data/abooMhox/versions/klxo2KdO/treeharvester-1.21.4-9.0.jar -O mods/tree.jar && \
