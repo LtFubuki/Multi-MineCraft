@@ -3,7 +3,7 @@ FROM arm64v8/openjdk:21-jdk-bullseye
 
 # Set environment variables
 ENV MINECRAFT_VERSION="1.21.4" \
-    GEYSER_VERSION="2.6.0-SNAPSHOT-588" \
+    GEYSER_VERSION="2.6.1-SNAPSHOT-787" \
     FLOODGATE_VERSION="2.2.4-SNAPSHOT-28"
 
 # Create and set the working directory
@@ -20,7 +20,7 @@ RUN mkdir mods
     
 # Download GeyserMC and Floodgate / core mods
 RUN wget https://cdn.modrinth.com/data/P7dR8mSH/versions/15ijyoD6/fabric-api-0.113.0%2B1.21.4.jar -O mods/fabric_api.jar && \
-    wget https://cdn.modrinth.com/data/wKkoqHrH/versions/LRKpBXy0/geyser-fabric-Geyser-Fabric-2.6.0-b739.jar -O mods/Geyser.jar && \
+    wget https://cdn.modrinth.com/data/wKkoqHrH/versions/ipWZqOpN/geyser-fabric-Geyser-Fabric-2.6.1-b787.jar -O mods/Geyser.jar && \
     wget https://cdn.modrinth.com/data/bWrNNfkb/versions/jb3lzved/Floodgate-Fabric-2.2.4-b42.jar -O mods/Floodgate.jar && \
     wget https://cdn.modrinth.com/data/P1OZGk5p/versions/FB1AZx0z/ViaVersion-5.2.1-SNAPSHOT.jar -O mods/viaversion.jar && \
     wget https://cdn.modrinth.com/data/NpvuJQoq/versions/cQfwR8Kg/ViaBackwards-5.2.1-SNAPSHOT.jar -O mods/viabackwards.jar && \
