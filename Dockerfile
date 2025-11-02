@@ -20,11 +20,11 @@ RUN mkdir mods
     
 # Download GeyserMC and Floodgate / core mods
 RUN wget https://cdn.modrinth.com/data/P7dR8mSH/versions/3XXLCKOW/fabric-api-0.137.0%2B1.21.11.jar -O mods/fabric_api.jar && \
-    wget https://cdn.modrinth.com/data/wKkoqHrH/versions/qzYhEQza/geyser-fabric-Geyser-Fabric-2.7.0-b808.jar -O mods/Geyser.jar && \
-    wget https://cdn.modrinth.com/data/bWrNNfkb/versions/jb3lzved/Floodgate-Fabric-2.2.4-b42.jar -O mods/Floodgate.jar && \
-    wget https://cdn.modrinth.com/data/P1OZGk5p/versions/FB1AZx0z/ViaVersion-5.2.1-SNAPSHOT.jar -O mods/viaversion.jar && \
-    wget https://cdn.modrinth.com/data/NpvuJQoq/versions/cQfwR8Kg/ViaBackwards-5.2.1-SNAPSHOT.jar -O mods/viabackwards.jar && \
-    wget https://cdn.modrinth.com/data/YlKdE5VK/versions/n9T0mzox/ViaFabric-0.4.18%2B104-main.jar -O mods/viafabric.jar && \
+    wget https://cdn.modrinth.com/data/wKkoqHrH/versions/SM2rfos8/geyser-fabric-Geyser-Fabric-2.9.0-b979.jar -O mods/Geyser.jar && \
+    wget https://cdn.modrinth.com/data/bWrNNfkb/versions/QFAMeMNB/Floodgate-Fabric-2.2.6-b51.jar -O mods/Floodgate.jar && \
+    wget https://cdn.modrinth.com/data/P1OZGk5p/versions/IZOlcyct/ViaVersion-5.5.2-SNAPSHOT.jar -O mods/viaversion.jar && \
+    wget https://cdn.modrinth.com/data/NpvuJQoq/versions/n9RbDHMO/ViaBackwards-5.5.2-SNAPSHOT.jar -O mods/viabackwards.jar && \
+    wget https://cdn.modrinth.com/data/YlKdE5VK/versions/kdVGOJPv/ViaFabric-0.4.20%2B126-main.jar -O mods/viafabric.jar && \
     wget https://cdn.modrinth.com/data/cl223EMc/versions/waCffck8/cristellib-fabric-2.0.2.jar -O mods/cristallib.jar && \
     wget https://cdn.modrinth.com/data/abooMhox/versions/NEuiaGve/treeharvester-1.21.5-9.1.jar -O mods/tree.jar && \
     wget https://cdn.modrinth.com/data/e0M1UDsY/versions/rSeksOK9/collective-1.21.5-8.2.jar -O mods/collective.jar && \
