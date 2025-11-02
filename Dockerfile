@@ -21,10 +21,7 @@ RUN mkdir mods
 # Download GeyserMC and Floodgate / core mods
 RUN wget https://cdn.modrinth.com/data/P7dR8mSH/versions/rhkWp6Ar/fabric-api-0.137.0%2B1.21.10.jar -O mods/fabric_api.jar && \
     wget https://cdn.modrinth.com/data/wKkoqHrH/versions/SM2rfos8/geyser-fabric-Geyser-Fabric-2.9.0-b979.jar -O mods/Geyser.jar && \
-    wget https://cdn.modrinth.com/data/bWrNNfkb/versions/QFAMeMNB/Floodgate-Fabric-2.2.6-b51.jar -O mods/Floodgate.jar && \
-    wget https://cdn.modrinth.com/data/P1OZGk5p/versions/IZOlcyct/ViaVersion-5.5.2-SNAPSHOT.jar -O mods/viaversion.jar && \
-    wget https://cdn.modrinth.com/data/NpvuJQoq/versions/n9RbDHMO/ViaBackwards-5.5.2-SNAPSHOT.jar -O mods/viabackwards.jar && \
-    wget https://cdn.modrinth.com/data/YlKdE5VK/versions/kdVGOJPv/ViaFabric-0.4.20%2B126-main.jar -O mods/viafabric.jar
+    wget https://cdn.modrinth.com/data/bWrNNfkb/versions/QFAMeMNB/Floodgate-Fabric-2.2.6-b51.jar -O mods/Floodgate.jar
 
 # Copy configuration files and start script
 COPY server.properties ./
