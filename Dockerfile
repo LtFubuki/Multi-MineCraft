@@ -24,14 +24,7 @@ RUN wget https://cdn.modrinth.com/data/P7dR8mSH/versions/3XXLCKOW/fabric-api-0.1
     wget https://cdn.modrinth.com/data/bWrNNfkb/versions/QFAMeMNB/Floodgate-Fabric-2.2.6-b51.jar -O mods/Floodgate.jar && \
     wget https://cdn.modrinth.com/data/P1OZGk5p/versions/IZOlcyct/ViaVersion-5.5.2-SNAPSHOT.jar -O mods/viaversion.jar && \
     wget https://cdn.modrinth.com/data/NpvuJQoq/versions/n9RbDHMO/ViaBackwards-5.5.2-SNAPSHOT.jar -O mods/viabackwards.jar && \
-    wget https://cdn.modrinth.com/data/YlKdE5VK/versions/kdVGOJPv/ViaFabric-0.4.20%2B126-main.jar -O mods/viafabric.jar && \
-    wget https://cdn.modrinth.com/data/cl223EMc/versions/waCffck8/cristellib-fabric-2.0.2.jar -O mods/cristallib.jar && \
-    wget https://cdn.modrinth.com/data/abooMhox/versions/NEuiaGve/treeharvester-1.21.5-9.1.jar -O mods/tree.jar && \
-    wget https://cdn.modrinth.com/data/e0M1UDsY/versions/rSeksOK9/collective-1.21.5-8.2.jar -O mods/collective.jar && \
-    wget https://cdn.modrinth.com/data/yn9u3ypm/versions/ejJjBZIM/graves-3.7.1%2B1.21.5.jar -O mods/graves.jar && \
-    wget https://cdn.modrinth.com/data/DjLobEOy/versions/HEqgNPcC/t_and_t-fabric-neoforge-1.13.5.jar -O mods/towns.jar && \
-    wget https://cdn.modrinth.com/data/8oi3bsk5/versions/vGKEdR1w/Terralith_1.21.x_v2.5.9.jar -O mods/teralith.jar && \
-    wget https://cdn.modrinth.com/data/TWsbC6jW/versions/S5p8KJxL/AdditionalStructures-1.21.5-%28v.6.2.0-NEO%29.jar -O mods/struc.jar 
+    wget https://cdn.modrinth.com/data/YlKdE5VK/versions/kdVGOJPv/ViaFabric-0.4.20%2B126-main.jar -O mods/viafabric.jar
 
 # Copy configuration files and start script
 COPY server.properties ./
