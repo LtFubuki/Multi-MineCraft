@@ -45,7 +45,8 @@ RUN wget https://cdn.modrinth.com/data/P7dR8mSH/versions/rhkWp6Ar/fabric-api-0.1
     wget https://cdn.modrinth.com/data/9s6osm5g/versions/qMxkrrmq/cloth-config-20.0.149-fabric.jar -O mods/clothconfig.jar && \
     wget https://cdn.modrinth.com/data/tPe4xnPd/versions/rUuSzfru/formations-1.0.4-fabric-mc1.21.6.jar -O mods/formations.jar && \
     wget https://cdn.modrinth.com/data/XaDC71GB/versions/OHVYggvo/lithostitched-1.5.1-fabric-1.21.9.jar -O mods/lithostiched.jar && \
-    wget https://cdn.modrinth.com/data/8oi3bsk5/versions/JKg71Gq0/Terralith_1.21.x_v2.5.13.jar -O mods/terra.jar
+    wget https://cdn.modrinth.com/data/8oi3bsk5/versions/JKg71Gq0/Terralith_1.21.x_v2.5.13.jar -O mods/terra.jar && \
+    wget https://cdn.modrinth.com/data/tpehi7ww/versions/ONgzIwjx/dungeons-and-taverns-v5.0.2.jar -O mods/dungeons.jar
     
     
     
