@@ -33,6 +33,20 @@ RUN wget https://cdn.modrinth.com/data/P7dR8mSH/versions/rhkWp6Ar/fabric-api-0.1
     wget https://cdn.modrinth.com/data/fgmhI8kH/versions/ZElsnCT3/%5Bfabric%5Dctov-3.5.10a.jar -O mods/villages.jar && \
     wget https://cdn.modrinth.com/data/4WWQxlQP/versions/TTQGy6U8/servercore-fabric-1.5.14%2B1.21.9.jar -O mods/servercode.jar && \
     wget https://cdn.modrinth.com/data/muf0XoRe/versions/Qn9MHk0P/repurposed_structures-7.5.22%2B1.21.9-fabric.jar -O mods/strucs.jar && \
+    wget https://cdn.modrinth.com/data/OQAgZMH1/versions/YWXTj40n/MoogsVoyagerStructures-1.21-5.0.1.jar -O mods/moogs.jar && \
+    wget https://cdn.modrinth.com/data/TWsbC6jW/versions/RURunGvI/AdditionalStructures-1.21.x-%28v.5.1.3-fabric%29.jar -O mods/addstrucs.jar && \
+    wget https://cdn.modrinth.com/data/KX1XC0Oo/versions/oDpgbADk/formationsoverworld-1.0.5-mc1.21%2B.jar -O mods/formations.jar && \
+    wget https://cdn.modrinth.com/data/yn9u3ypm/versions/bJROTlRS/graves-3.9.0%2B1.21.9.jar -O mods/graves.jar && \
+    wget https://cdn.modrinth.com/data/5ibSyLAz/versions/FX9V1bWK/inventorysorter-fabric-2.1.0%2Bmc1.21.9.jar -O mods/sorting.jar && \
+    wget https://cdn.modrinth.com/data/ZsrrjDbP/versions/tTpWP44G/DungeonsAriseSevenSeas-1.21.x-1.0.4-fabric.jar -O mods/sevenseas.jar && \
+    wget https://cdn.modrinth.com/data/tb5O1ssC/versions/AKVTh9cI/abridged-2.0.0-fabric-1.21.9.jar -O mods/bridged.jar && \
+    
+    
+    
+    
+    
+    
+    
     
     
     
