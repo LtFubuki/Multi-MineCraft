@@ -45,7 +45,11 @@ RUN wget https://cdn.modrinth.com/data/P7dR8mSH/versions/rhkWp6Ar/fabric-api-0.1
     wget https://cdn.modrinth.com/data/codAaoxh/versions/7RbEjTSq/midnightlib-1.8.3-fabric%2B1.21.9.jar -O mods/midnight.jar && \
     wget https://cdn.modrinth.com/data/ohNO6lps/versions/6T4w46C9/ForgeConfigAPIPort-v21.10.0%2Bmc1.21.10-Fabric.jar -O mods/forgeconfig.jar && \
     wget https://cdn.modrinth.com/data/1oUDhxuy/versions/uVEm6cHG/moogs_structure_lib-1.0.2-1.21.5-1.21.10-fabric.jar -O mods/moogsstrucs.jar && \
-    wget https://cdn.modrinth.com/data/9s6osm5g/versions/qMxkrrmq/cloth-config-20.0.149-fabric.jar -O mods/clothconfig.jar
+    wget https://cdn.modrinth.com/data/9s6osm5g/versions/qMxkrrmq/cloth-config-20.0.149-fabric.jar -O mods/clothconfig.jar && \
+    wget https://cdn.modrinth.com/data/tPe4xnPd/versions/rUuSzfru/formations-1.0.4-fabric-mc1.21.6.jar -O mods/formations.jar && \
+    wget https://cdn.modrinth.com/data/XaDC71GB/versions/OHVYggvo/lithostitched-1.5.1-fabric-1.21.9.jar -O mods/lithostiched.jar
+    
+    
     
     
     
