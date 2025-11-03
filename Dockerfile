@@ -1,5 +1,5 @@
 # Use the official OpenJDK image as the base image
-FROM openjdk:21-jdk-bullseye
+FROM openjdk:22-jdk-bullseye
 
 # Set environment variables
 ENV MINECRAFT_VERSION="1.21.10" \
@@ -39,7 +39,12 @@ RUN wget https://cdn.modrinth.com/data/P7dR8mSH/versions/rhkWp6Ar/fabric-api-0.1
     wget https://cdn.modrinth.com/data/yn9u3ypm/versions/bJROTlRS/graves-3.9.0%2B1.21.9.jar -O mods/graves.jar && \
     wget https://cdn.modrinth.com/data/5ibSyLAz/versions/FX9V1bWK/inventorysorter-fabric-2.1.0%2Bmc1.21.9.jar -O mods/sorting.jar && \
     wget https://cdn.modrinth.com/data/ZsrrjDbP/versions/tTpWP44G/DungeonsAriseSevenSeas-1.21.x-1.0.4-fabric.jar -O mods/sevenseas.jar && \
-    wget https://cdn.modrinth.com/data/tb5O1ssC/versions/AKVTh9cI/abridged-2.0.0-fabric-1.21.9.jar -O mods/bridged.jar
+    wget https://cdn.modrinth.com/data/tb5O1ssC/versions/AKVTh9cI/abridged-2.0.0-fabric-1.21.9.jar -O mods/bridged.jar &7 \
+    wget https://cdn.modrinth.com/data/e0M1UDsY/versions/A0CFMmGr/collective-1.21.10-8.13.jar -O mods/collective.jar && \
+    wget https://cdn.modrinth.com/data/cl223EMc/versions/ZvMKpvgf/cristellib-fabric-1.21.10-3.0.3.jar -O mods/crislib.jar && \
+    wget https://cdn.modrinth.com/data/codAaoxh/versions/7RbEjTSq/midnightlib-1.8.3-fabric%2B1.21.9.jar -O mods/midnight.jar
+    
+    
     
     
     
