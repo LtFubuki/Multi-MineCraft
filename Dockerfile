@@ -30,7 +30,6 @@ RUN wget https://cdn.modrinth.com/data/P7dR8mSH/versions/rhkWp6Ar/fabric-api-0.1
     wget https://cdn.modrinth.com/data/DjLobEOy/versions/NXAdx4ui/t_and_t-fabric-neoforge-1.13.7.jar -O mods/towns.jar && \
     wget https://cdn.modrinth.com/data/Fb4jn8m6/versions/hDjB8uAg/FallingTree-1.21.10-1.21.10.1.jar -O mods/fallingtree.jar && \
     wget https://cdn.modrinth.com/data/gqRXDo8B/versions/PlzaDKOA/villagernames-1.21.10-8.3.jar -O mods/villigarnames.jar && \
-    wget https://cdn.modrinth.com/data/fgmhI8kH/versions/ZElsnCT3/%5Bfabric%5Dctov-3.5.10a.jar -O mods/villages.jar && \
     wget https://cdn.modrinth.com/data/4WWQxlQP/versions/TTQGy6U8/servercore-fabric-1.5.14%2B1.21.9.jar -O mods/servercode.jar && \
     wget https://cdn.modrinth.com/data/muf0XoRe/versions/Qn9MHk0P/repurposed_structures-7.5.22%2B1.21.9-fabric.jar -O mods/strucs.jar && \
     wget https://cdn.modrinth.com/data/OQAgZMH1/versions/YWXTj40n/MoogsVoyagerStructures-1.21-5.0.1.jar -O mods/moogs.jar && \
