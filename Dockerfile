@@ -39,18 +39,7 @@ RUN wget https://cdn.modrinth.com/data/P7dR8mSH/versions/rhkWp6Ar/fabric-api-0.1
     wget https://cdn.modrinth.com/data/yn9u3ypm/versions/bJROTlRS/graves-3.9.0%2B1.21.9.jar -O mods/graves.jar && \
     wget https://cdn.modrinth.com/data/5ibSyLAz/versions/FX9V1bWK/inventorysorter-fabric-2.1.0%2Bmc1.21.9.jar -O mods/sorting.jar && \
     wget https://cdn.modrinth.com/data/ZsrrjDbP/versions/tTpWP44G/DungeonsAriseSevenSeas-1.21.x-1.0.4-fabric.jar -O mods/sevenseas.jar && \
-    wget https://cdn.modrinth.com/data/tb5O1ssC/versions/AKVTh9cI/abridged-2.0.0-fabric-1.21.9.jar -O mods/bridged.jar && \
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    wget https://cdn.modrinth.com/data/tb5O1ssC/versions/AKVTh9cI/abridged-2.0.0-fabric-1.21.9.jar -O mods/bridged.jar
     
     
     
