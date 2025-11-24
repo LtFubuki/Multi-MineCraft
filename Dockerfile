@@ -20,7 +20,7 @@ RUN mkdir mods
     
 # Download GeyserMC and Floodgate / core mods
 RUN wget https://cdn.modrinth.com/data/P7dR8mSH/versions/rhkWp6Ar/fabric-api-0.137.0%2B1.21.10.jar -O mods/fabric_api.jar && \
-    wget https://cdn.modrinth.com/data/wKkoqHrH/versions/SM2rfos8/geyser-fabric-Geyser-Fabric-2.9.0-b979.jar -O mods/Geyser.jar && \
+    wget https://cdn.modrinth.com/data/wKkoqHrH/versions/rGvnzsTC/geyser-fabric-Geyser-Fabric-2.9.1-b997.jar -O mods/Geyser.jar && \
     wget https://cdn.modrinth.com/data/bWrNNfkb/versions/QFAMeMNB/Floodgate-Fabric-2.2.6-b51.jar -O mods/Floodgate.jar && \
     wget https://cdn.modrinth.com/data/uXXizFIs/versions/MGoveONm/ferritecore-8.0.2-fabric.jar -O mods/ferrite.jar && \
     wget https://cdn.modrinth.com/data/nvQzSEkH/versions/qC0qUqL5/Jade-1.21.9-Fabric-20.0.5.jar -O mods/jade.jar && \
