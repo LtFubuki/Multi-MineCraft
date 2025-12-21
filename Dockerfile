@@ -19,9 +19,9 @@ RUN mkdir mods
     
     
 # Download GeyserMC and Floodgate / core mods
-RUN wget https://cdn.modrinth.com/data/P7dR8mSH/versions/rhkWp6Ar/fabric-api-0.137.0%2B1.21.10.jar -O mods/fabric_api.jar && \
+RUN wget https://cdn.modrinth.com/data/P7dR8mSH/versions/gB6TkYEJ/fabric-api-0.140.2%2B1.21.11.jar -O mods/fabric_api.jar && \
     wget https://cdn.modrinth.com/data/wKkoqHrH/versions/rPAhdfqh/geyser-fabric-Geyser-Fabric-2.9.2-b1013.jar -O mods/Geyser.jar && \
-    wget https://cdn.modrinth.com/data/bWrNNfkb/versions/QFAMeMNB/Floodgate-Fabric-2.2.6-b51.jar -O mods/Floodgate.jar && \
+    wget https://cdn.modrinth.com/data/bWrNNfkb/versions/wzwExuYr/Floodgate-Fabric-2.2.6-b54.jar -O mods/Floodgate.jar && \
     wget https://cdn.modrinth.com/data/uXXizFIs/versions/MGoveONm/ferritecore-8.0.2-fabric.jar -O mods/ferrite.jar && \
     wget https://cdn.modrinth.com/data/nvQzSEkH/versions/qC0qUqL5/Jade-1.21.9-Fabric-20.0.5.jar -O mods/jade.jar && \
     wget https://cdn.modrinth.com/data/gF3BGWvG/versions/MZ9uI929/open-parties-and-claims-fabric-1.21.10-0.25.8.jar -O mods/claims.jar && \
