@@ -30,7 +30,6 @@ RUN wget https://cdn.modrinth.com/data/P7dR8mSH/versions/gB6TkYEJ/fabric-api-0.1
     wget https://cdn.modrinth.com/data/gqRXDo8B/versions/PlzaDKOA/villagernames-1.21.10-8.3.jar -O mods/villigarnames.jar && \
     wget https://cdn.modrinth.com/data/4WWQxlQP/versions/TTQGy6U8/servercore-fabric-1.5.14%2B1.21.9.jar -O mods/servercode.jar && \
     wget https://cdn.modrinth.com/data/muf0XoRe/versions/Qn9MHk0P/repurposed_structures-7.5.22%2B1.21.9-fabric.jar -O mods/strucs.jar && \
-    wget https://cdn.modrinth.com/data/OQAgZMH1/versions/YWXTj40n/MoogsVoyagerStructures-1.21-5.0.1.jar -O mods/moogs.jar && \
     wget https://cdn.modrinth.com/data/TWsbC6jW/versions/RURunGvI/AdditionalStructures-1.21.x-%28v.5.1.3-fabric%29.jar -O mods/addstrucs.jar && \
     wget https://cdn.modrinth.com/data/KX1XC0Oo/versions/oDpgbADk/formationsoverworld-1.0.5-mc1.21%2B.jar -O mods/formations.jar && \
     wget https://cdn.modrinth.com/data/yn9u3ypm/versions/bJROTlRS/graves-3.9.0%2B1.21.9.jar -O mods/graves.jar && \
@@ -40,8 +39,7 @@ RUN wget https://cdn.modrinth.com/data/P7dR8mSH/versions/gB6TkYEJ/fabric-api-0.1
     wget https://cdn.modrinth.com/data/e0M1UDsY/versions/A0CFMmGr/collective-1.21.10-8.13.jar -O mods/collective.jar && \
     wget https://cdn.modrinth.com/data/cl223EMc/versions/ZvMKpvgf/cristellib-fabric-1.21.10-3.0.3.jar -O mods/crislib.jar && \
     wget https://cdn.modrinth.com/data/codAaoxh/versions/7RbEjTSq/midnightlib-1.8.3-fabric%2B1.21.9.jar -O mods/midnight.jar && \
-    wget https://cdn.modrinth.com/data/ohNO6lps/versions/6T4w46C9/ForgeConfigAPIPort-v21.10.0%2Bmc1.21.10-Fabric.jar -O mods/forgeconfig.jar && \
-    wget https://cdn.modrinth.com/data/1oUDhxuy/versions/uVEm6cHG/moogs_structure_lib-1.0.2-1.21.5-1.21.10-fabric.jar -O mods/moogsstrucs.jar && \
+    wget https://cdn.modrinth.com/data/ohNO6lps/versions/uXrWPsCu/ForgeConfigAPIPort-v21.11.1-mc1.21.11-Fabric.jar -O mods/forgeconfig.jar && \
     wget https://cdn.modrinth.com/data/9s6osm5g/versions/qMxkrrmq/cloth-config-20.0.149-fabric.jar -O mods/clothconfig.jar && \
     wget https://cdn.modrinth.com/data/tPe4xnPd/versions/rUuSzfru/formations-1.0.4-fabric-mc1.21.6.jar -O mods/formations.jar && \
     wget https://cdn.modrinth.com/data/XaDC71GB/versions/OHVYggvo/lithostitched-1.5.1-fabric-1.21.9.jar -O mods/lithostiched.jar && \
