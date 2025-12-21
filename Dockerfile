@@ -30,6 +30,8 @@ RUN wget https://cdn.modrinth.com/data/P7dR8mSH/versions/gB6TkYEJ/fabric-api-0.1
     wget https://cdn.modrinth.com/data/e0M1UDsY/versions/T8rv7kwo/collective-1.21.11-8.13.jar -O mods/collective.jar && \
     wget https://cdn.modrinth.com/data/xGdtZczs/versions/YVtP5HFl/polymer-bundled-0.15.1%2B1.21.11.jar -O mods/polymer.jar && \
     wget https://cdn.modrinth.com/data/8oi3bsk5/versions/TFW9ZxPQ/Terralith_1.21.x_v2.5.14.jar -O mods/terralith.jar && \
+    wget https://cdn.modrinth.com/data/TWsbC6jW/versions/ieaPytK8/AdditionalStructures-1.21-%28v.5.2.0-FABRIC%29-dev.jar -O mods/addistrucs.jar && \
+    wget https://cdn.modrinth.com/data/muf0XoRe/versions/roNP79dp/repurposed_structures-7.6.0%2B1.21.11-fabric.jar -O mods/repurposedstrucs.jar && \
     wget https://cdn.modrinth.com/data/P7dR8mSH/versions/dQ3p80zK/fabric-api-0.138.3%2B1.21.10.jar -O mods/fabricapi.jar
     
     
