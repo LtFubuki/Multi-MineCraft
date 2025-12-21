@@ -22,30 +22,12 @@ RUN mkdir mods
 RUN wget https://cdn.modrinth.com/data/P7dR8mSH/versions/gB6TkYEJ/fabric-api-0.140.2%2B1.21.11.jar -O mods/fabric_api.jar && \
     wget https://cdn.modrinth.com/data/wKkoqHrH/versions/rPAhdfqh/geyser-fabric-Geyser-Fabric-2.9.2-b1013.jar -O mods/Geyser.jar && \
     wget https://cdn.modrinth.com/data/bWrNNfkb/versions/wzwExuYr/Floodgate-Fabric-2.2.6-b54.jar -O mods/Floodgate.jar && \
-    wget https://cdn.modrinth.com/data/uXXizFIs/versions/MGoveONm/ferritecore-8.0.2-fabric.jar -O mods/ferrite.jar && \
-    wget https://cdn.modrinth.com/data/nvQzSEkH/versions/qC0qUqL5/Jade-1.21.9-Fabric-20.0.5.jar -O mods/jade.jar && \
-    wget https://cdn.modrinth.com/data/DjLobEOy/versions/NXAdx4ui/t_and_t-fabric-neoforge-1.13.7.jar -O mods/towns.jar && \
     wget https://cdn.modrinth.com/data/Fb4jn8m6/versions/hDjB8uAg/FallingTree-1.21.10-1.21.10.1.jar -O mods/fallingtree.jar && \
     wget https://cdn.modrinth.com/data/gqRXDo8B/versions/PlzaDKOA/villagernames-1.21.10-8.3.jar -O mods/villigarnames.jar && \
-    wget https://cdn.modrinth.com/data/4WWQxlQP/versions/TTQGy6U8/servercore-fabric-1.5.14%2B1.21.9.jar -O mods/servercode.jar && \
-    wget https://cdn.modrinth.com/data/muf0XoRe/versions/Qn9MHk0P/repurposed_structures-7.5.22%2B1.21.9-fabric.jar -O mods/strucs.jar && \
-    wget https://cdn.modrinth.com/data/TWsbC6jW/versions/RURunGvI/AdditionalStructures-1.21.x-%28v.5.1.3-fabric%29.jar -O mods/addstrucs.jar && \
-    wget https://cdn.modrinth.com/data/KX1XC0Oo/versions/oDpgbADk/formationsoverworld-1.0.5-mc1.21%2B.jar -O mods/formations.jar && \
     wget https://cdn.modrinth.com/data/yn9u3ypm/versions/bJROTlRS/graves-3.9.0%2B1.21.9.jar -O mods/graves.jar && \
     wget https://cdn.modrinth.com/data/5ibSyLAz/versions/FX9V1bWK/inventorysorter-fabric-2.1.0%2Bmc1.21.9.jar -O mods/sorting.jar && \
-    wget https://cdn.modrinth.com/data/ZsrrjDbP/versions/tTpWP44G/DungeonsAriseSevenSeas-1.21.x-1.0.4-fabric.jar -O mods/sevenseas.jar && \
-    wget https://cdn.modrinth.com/data/tb5O1ssC/versions/AKVTh9cI/abridged-2.0.0-fabric-1.21.9.jar -O mods/bridged.jar && \
-    wget https://cdn.modrinth.com/data/e0M1UDsY/versions/A0CFMmGr/collective-1.21.10-8.13.jar -O mods/collective.jar && \
-    wget https://cdn.modrinth.com/data/cl223EMc/versions/ZvMKpvgf/cristellib-fabric-1.21.10-3.0.3.jar -O mods/crislib.jar && \
-    wget https://cdn.modrinth.com/data/codAaoxh/versions/7RbEjTSq/midnightlib-1.8.3-fabric%2B1.21.9.jar -O mods/midnight.jar && \
-    wget https://cdn.modrinth.com/data/ohNO6lps/versions/uXrWPsCu/ForgeConfigAPIPort-v21.11.1-mc1.21.11-Fabric.jar -O mods/forgeconfig.jar && \
     wget https://cdn.modrinth.com/data/9s6osm5g/versions/qMxkrrmq/cloth-config-20.0.149-fabric.jar -O mods/clothconfig.jar && \
-    wget https://cdn.modrinth.com/data/tPe4xnPd/versions/rUuSzfru/formations-1.0.4-fabric-mc1.21.6.jar -O mods/formations.jar && \
-    wget https://cdn.modrinth.com/data/XaDC71GB/versions/OHVYggvo/lithostitched-1.5.1-fabric-1.21.9.jar -O mods/lithostiched.jar && \
-    wget https://cdn.modrinth.com/data/8oi3bsk5/versions/JKg71Gq0/Terralith_1.21.x_v2.5.13.jar -O mods/terra.jar && \
-    wget https://cdn.modrinth.com/data/IEPAK5x6/versions/eQ9Cwbhn/htm-1.2.0.jar -O mods/htm.jar && \
-    wget https://cdn.modrinth.com/data/P7dR8mSH/versions/dQ3p80zK/fabric-api-0.138.3%2B1.21.10.jar -O mods/fabricapi.jar && \
-    wget https://cdn.modrinth.com/data/tpehi7ww/versions/ONgzIwjx/dungeons-and-taverns-v5.0.2.jar -O mods/dungeons.jar
+    wget https://cdn.modrinth.com/data/P7dR8mSH/versions/dQ3p80zK/fabric-api-0.138.3%2B1.21.10.jar -O mods/fabricapi.jar
     
     
     
