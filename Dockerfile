@@ -2,7 +2,7 @@
 FROM openjdk:22-jdk-bullseye
 
 # Set environment variables
-ENV MINECRAFT_VERSION="1.21.10" \
+ENV MINECRAFT_VERSION="26.2" \
     GEYSER_VERSION="2.7.0-SNAPSHOT-787" \
     FLOODGATE_VERSION="2.2.4-SNAPSHOT-28"
 
@@ -11,7 +11,7 @@ RUN mkdir -p /minecraft
 WORKDIR /minecraft
 
 # Download the Minecraft server and accept the EULA
-RUN wget https://meta.fabricmc.net/v2/versions/loader/1.21.11/0.18.3/1.1.0/server/jar -O minecraft_server.jar && \
+RUN wget https://meta.fabricmc.net/v2/versions/loader/26.2/0.19.3/1.1.2/server/jar -O minecraft_server.jar && \
     echo "eula=true" > eula.txt
 
 #download Mods
