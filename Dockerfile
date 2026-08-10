@@ -24,21 +24,13 @@ RUN wget https://cdn.modrinth.com/data/P7dR8mSH/versions/vmQp7ixA/fabric-api-0.1
     wget https://cdn.modrinth.com/data/bWrNNfkb/versions/urOFTrVX/Floodgate-Fabric-2.2.6-b67.jar -O mods/Floodgate.jar && \
     wget https://cdn.modrinth.com/data/Fb4jn8m6/versions/sOoH5kkd/FallingTree-26.2-25.jar -O mods/fallingtree.jar && \
     wget https://cdn.modrinth.com/data/kieAM9Us/versions/Iy49DpF5/ly-graves-3.0.1.jar -O mods/graves.jar && \
-    wget https://cdn.modrinth.com/data/5ibSyLAz/versions/FX9V1bWK/inventorysorter-fabric-2.1.0%2Bmc1.21.9.jar -O mods/sorting.jar && \
-    wget https://cdn.modrinth.com/data/9s6osm5g/versions/qMxkrrmq/cloth-config-20.0.149-fabric.jar -O mods/clothconfig.jar && \
-    wget https://cdn.modrinth.com/data/e0M1UDsY/versions/T8rv7kwo/collective-1.21.11-8.13.jar -O mods/collective.jar && \
-    wget https://cdn.modrinth.com/data/xGdtZczs/versions/YVtP5HFl/polymer-bundled-0.15.1%2B1.21.11.jar -O mods/polymer.jar && \
-    wget https://cdn.modrinth.com/data/8oi3bsk5/versions/TFW9ZxPQ/Terralith_1.21.x_v2.5.14.jar -O mods/terralith.jar && \
-    wget https://cdn.modrinth.com/data/TWsbC6jW/versions/ieaPytK8/AdditionalStructures-1.21-%28v.5.2.0-FABRIC%29-dev.jar -O mods/addistrucs.jar && \
-    wget https://cdn.modrinth.com/data/muf0XoRe/versions/roNP79dp/repurposed_structures-7.6.0%2B1.21.11-fabric.jar -O mods/repurposedstrucs.jar && \
-    wget https://cdn.modrinth.com/data/codAaoxh/versions/OeTayxh3/midnightlib-fabric-1.9.2%2B1.21.11.jar -O mods/midnight.jar && \
-    wget https://cdn.modrinth.com/data/P7dR8mSH/versions/dQ3p80zK/fabric-api-0.138.3%2B1.21.10.jar -O mods/fabricapi.jar
-    
-    
-    
-    
-    
-    
+    wget https://cdn.modrinth.com/data/5ibSyLAz/versions/XqW7xO2k/inventorysorter-fabric-3.0.0%2Bmc26.2.jar -O mods/sorting.jar && \
+    wget https://cdn.modrinth.com/data/9s6osm5g/versions/Nv3xnWXd/cloth-config-26.2.155.jar -O mods/clothconfig.jar && \
+    wget https://cdn.modrinth.com/data/e0M1UDsY/versions/M75JwjyS/collective-26.2.0-8.39.jar -O mods/collective.jar && \
+    wget https://cdn.modrinth.com/data/xGdtZczs/versions/w0N4I45x/polymer-bundled-0.17.3%2B26.2.jar -O mods/polymer.jar && \
+    wget https://cdn.modrinth.com/data/8oi3bsk5/versions/OxfI2n80/Terralith_26.2_v2.6.4.jar -O mods/terralith.jar && \
+    wget https://cdn.modrinth.com/data/muf0XoRe/versions/dz8fp9GC/repurposed_structures-7.7.5%2B26.2-fabric.jar -O mods/repurposedstrucs.jar && \
+    https://cdn.modrinth.com/data/codAaoxh/versions/3uBvRFE9/midnightlib-fabric-1.9.3%2B26.2.jar -O mods/midnight.jar
     
     
     
