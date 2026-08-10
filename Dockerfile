@@ -11,7 +11,7 @@ RUN mkdir -p /minecraft
 WORKDIR /minecraft
 
 # Download the Minecraft server and accept the EULA
-RUN wget https://meta.fabricmc.net/v2/versions/loader/26.2/0.19.3/1.1.2/server/jar -O minecraft_server.jar && \
+RUN wget fabric-server-mc.26.2-loader.0.19.3-launcher.1.1.2.jar -O minecraft_server.jar && \
     echo "eula=true" > eula.txt
 
 #download Mods
